@@ -1,0 +1,95 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -2533 day(s)
+INFO: [Device 21-36] Loading parts and site information from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO/pa.fromNetlist.tcl
+# create_project -name XC6SLX25v1 -dir "F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO/planAhead_run_2" -part xc6slx25ftg256-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO/top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO} {../ip_core/fifo} {../ip_core/clk} }
+# add_files [list {../ip_core/fifo/rdfifo.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {../ip_core/fifo/wrfifo.ncf}] -fileset [get_property constrset [current_run]]
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "top.ucf" [current_fileset -constrset]
+Adding file 'F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO/top.ucf' to fileset 'constrs_1'
+# add_files [list {top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx25ftg256-2
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top.ngc ...
+WARNING:NetListWriters:298 - No output is written to top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   u_sdram_top/u_sdram_controller/u_sdram_cmd/sdram_addr<12 : 0> on block top is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   u_sdram_top/u_sdram_controller/u_sdram_cmd/init_state[4]_PWR_16_o_select_26_O
+   UT<12 : 0> on block top is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file top.edif ...
+ngc2edif: Total memory usage is 4316904 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/XC6SLX25v1.data/cache/top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/XC6SLX25v1.data/cache/top_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design wrfifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to wrfifo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file wrfifo.edif ...
+ngc2edif: Total memory usage is 4315432 kilobytes
+
+Reading core file 'F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/wrfifo.ngc' for (cell view 'wrfifo', library 'top_lib', file 'top.ngc')
+Parsing EDIF File [./planAhead_run_2/XC6SLX25v1.data/cache/wrfifo_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/XC6SLX25v1.data/cache/wrfifo_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design rdfifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to rdfifo.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file rdfifo.edif ...
+ngc2edif: Total memory usage is 4316328 kilobytes
+
+Reading core file 'F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/rdfifo.ngc' for (cell view 'rdfifo', library 'top_lib', file 'top.ngc')
+Parsing EDIF File [./planAhead_run_2/XC6SLX25v1.data/cache/rdfifo_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/XC6SLX25v1.data/cache/rdfifo_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockRegion.xml
+Loading clock buffers from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx25/ClockBuffers.xml
+Loading package pin functions from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx25/ftg256/Package.xml
+Loading io standards from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/Xilinx_ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/rdfifo.ncf]
+Finished Parsing UCF File [F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/rdfifo.ncf]
+Parsing UCF File [F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/wrfifo.ncf]
+Finished Parsing UCF File [F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/wrfifo.ncf]
+Parsing UCF File [F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO/top.ucf]
+Finished Parsing UCF File [F:/01FPGA_PRO/HighSpeedAcquisitionCard/PRO/top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  IOBUF => IOBUF (OBUFT, IBUF): 16 instances
+
+Phase 0 | Netlist Checksum: 657d3c82
