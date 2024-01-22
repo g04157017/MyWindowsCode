@@ -8,388 +8,412 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/led_ctl/led_disp.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="281" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">Cannot open include file &quot;sdram_para.v&quot;.</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/ClockForwarding.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">66</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_INIT&gt; is not defined.</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">66</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="281" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">Cannot open include file &quot;sdram_para.v&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Macro &lt;I_NOP&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">66</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_INIT&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Syntax error near &quot;,&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">66</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_NOP&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Macro &lt;I_NOP&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Syntax error near &quot;,&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. <arg fmt="%s" index="3">Macro &lt;I_PRE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_NOP&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">79</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_PRGE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. <arg fmt="%s" index="3">Macro &lt;I_PRE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">83</arg>. <arg fmt="%s" index="3">Macro &lt;I_AR&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">78</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">85</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_A_REF&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">79</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_PRGE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">85</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">83</arg>. <arg fmt="%s" index="3">Macro &lt;I_AR&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. <arg fmt="%s" index="3">Macro &lt;I_MRS&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">85</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_A_REF&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">85</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_LMR&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. <arg fmt="%s" index="3">Macro &lt;I_MRS&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">99</arg>. <arg fmt="%s" index="3">Syntax error near &quot;}&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">101</arg>. <arg fmt="%s" index="3">Macro &lt;I_DONE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">90</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_LMR&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. <arg fmt="%s" index="3">Macro &lt;W_IDLE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">99</arg>. <arg fmt="%s" index="3">Syntax error near &quot;}&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. <arg fmt="%s" index="3">Syntax error near &quot;,&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">101</arg>. <arg fmt="%s" index="3">Macro &lt;I_DONE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">104</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. <arg fmt="%s" index="3">Macro &lt;W_IDLE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">108</arg>. <arg fmt="%s" index="3">Macro &lt;W_ACTIVE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">103</arg>. <arg fmt="%s" index="3">Syntax error near &quot;,&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">108</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">104</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">109</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_ACTIVE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">108</arg>. <arg fmt="%s" index="3">Macro &lt;W_ACTIVE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">Macro &lt;W_READ&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">108</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_READ&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">109</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_ACTIVE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">Macro &lt;W_READ&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. <arg fmt="%s" index="3">Macro &lt;W_RD&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_READ&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">119</arg>. <arg fmt="%s" index="3">Macro &lt;end_rdburst&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. <arg fmt="%s" index="3">Macro &lt;W_RD&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">120</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_B_STOP&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">118</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">127</arg>. <arg fmt="%s" index="3">Macro &lt;W_WRITE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">119</arg>. <arg fmt="%s" index="3">Macro &lt;end_rdburst&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_WRITE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">120</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_B_STOP&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">127</arg>. <arg fmt="%s" index="3">Macro &lt;W_WRITE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">132</arg>. <arg fmt="%s" index="3">Macro &lt;W_WD&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. <arg fmt="%s" index="3">Macro &lt;CMD_WRITE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">132</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">133</arg>. <arg fmt="%s" index="3">Macro &lt;end_wrburst&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">132</arg>. <arg fmt="%s" index="3">Macro &lt;W_WD&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">141</arg>. <arg fmt="%s" index="3">Macro &lt;W_PRE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">132</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">133</arg>. <arg fmt="%s" index="3">Macro &lt;end_wrburst&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Macro &lt;W_AR&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">141</arg>. <arg fmt="%s" index="3">Macro &lt;W_PRE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Macro &lt;W_AR&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Syntax error near &quot;begin&quot;.</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v&quot; into library work</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="281" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">40</arg>. <arg fmt="%s" index="3">Cannot open include file &quot;sdram_para.v&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">69</arg>. <arg fmt="%s" index="3">Macro &lt;I_DONE&gt; is not defined.</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_controller.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">69</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Macro &lt;W_AR&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="281" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">40</arg>. <arg fmt="%s" index="3">Cannot open include file &quot;sdram_para.v&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">69</arg>. <arg fmt="%s" index="3">Macro &lt;I_DONE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">Macro &lt;W_TRCD&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">69</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Macro &lt;W_AR&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. <arg fmt="%s" index="3">Macro &lt;W_WRITE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">72</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. <arg fmt="%s" index="3">Macro &lt;W_WD&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">Macro &lt;W_TRCD&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. <arg fmt="%s" index="3">Macro &lt;W_RD&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. <arg fmt="%s" index="3">Macro &lt;W_WRITE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">124</arg>. <arg fmt="%s" index="3">Macro &lt;I_NOP&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. <arg fmt="%s" index="3">Macro &lt;W_WD&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">124</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. <arg fmt="%s" index="3">Macro &lt;W_RD&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">126</arg>. <arg fmt="%s" index="3">Macro &lt;I_AR&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">126</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">124</arg>. <arg fmt="%s" index="3">Macro &lt;I_NOP&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">134</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">124</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">138</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">126</arg>. <arg fmt="%s" index="3">Macro &lt;I_AR&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">138</arg>. <arg fmt="%s" index="3">Macro &lt;I_PRE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">126</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">140</arg>. <arg fmt="%s" index="3">Macro &lt;I_TRP&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">134</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">140</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">138</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Macro &lt;end_trp&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">138</arg>. <arg fmt="%s" index="3">Macro &lt;I_PRE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">140</arg>. <arg fmt="%s" index="3">Macro &lt;I_TRP&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">144</arg>. <arg fmt="%s" index="3">Macro &lt;I_TRF&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">140</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">144</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Macro &lt;end_trp&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Macro &lt;end_trfc&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">144</arg>. <arg fmt="%s" index="3">Macro &lt;I_TRF&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">148</arg>. <arg fmt="%s" index="3">Macro &lt;I_MRS&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">144</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">150</arg>. <arg fmt="%s" index="3">Macro &lt;I_TRSC&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Macro &lt;end_trfc&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">150</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">146</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Macro &lt;end_trsc&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">148</arg>. <arg fmt="%s" index="3">Macro &lt;I_MRS&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">150</arg>. <arg fmt="%s" index="3">Macro &lt;I_TRSC&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">154</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">150</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">155</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Macro &lt;end_trsc&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">162</arg>. <arg fmt="%s" index="3">Macro &lt;W_IDLE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">167</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">154</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">172</arg>. <arg fmt="%s" index="3">Macro &lt;W_ACTIVE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">155</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">172</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">162</arg>. <arg fmt="%s" index="3">Macro &lt;W_IDLE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">177</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">167</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">182</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">172</arg>. <arg fmt="%s" index="3">Macro &lt;W_ACTIVE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">187</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&lt;=&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">172</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">188</arg>. <arg fmt="%s" index="3">Macro &lt;end_trcd&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">177</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">188</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">182</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">190</arg>. <arg fmt="%s" index="3">Macro &lt;W_READ&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">187</arg>. <arg fmt="%s" index="3">Syntax error near &quot;&lt;=&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">197</arg>. <arg fmt="%s" index="3">Macro &lt;W_CL&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">188</arg>. <arg fmt="%s" index="3">Macro &lt;end_trcd&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">197</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">188</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. <arg fmt="%s" index="3">Macro &lt;end_tcl&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">190</arg>. <arg fmt="%s" index="3">Macro &lt;W_READ&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">197</arg>. <arg fmt="%s" index="3">Macro &lt;W_CL&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">201</arg>. <arg fmt="%s" index="3">Macro &lt;end_tread&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">197</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">201</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. <arg fmt="%s" index="3">Macro &lt;end_tcl&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">204</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">206</arg>. <arg fmt="%s" index="3">Macro &lt;end_twrite&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">201</arg>. <arg fmt="%s" index="3">Macro &lt;end_tread&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">206</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">201</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. <arg fmt="%s" index="3">Macro &lt;end_twr&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">204</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">206</arg>. <arg fmt="%s" index="3">Macro &lt;end_twrite&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">211</arg>. <arg fmt="%s" index="3">Macro &lt;W_TRP&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">206</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">211</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. <arg fmt="%s" index="3">Macro &lt;end_twr&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">213</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">216</arg>. <arg fmt="%s" index="3">Macro &lt;W_TRFC&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">211</arg>. <arg fmt="%s" index="3">Macro &lt;W_TRP&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">216</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">211</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">218</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">213</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">219</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">216</arg>. <arg fmt="%s" index="3">Macro &lt;W_TRFC&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">228</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">216</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">230</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">218</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">235</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">219</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">236</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">228</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">240</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">230</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">244</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">235</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">246</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">236</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">248</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">240</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">250</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">244</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">252</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">246</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">254</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">248</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">256</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">250</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">258</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">252</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">260</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">254</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v&quot; into library work</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">256</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="281" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">34</arg>. <arg fmt="%s" index="3">Cannot open include file &quot;sdram_para.v&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">258</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Macro &lt;W_WRITE&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">260</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v&quot; into library work</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">Syntax error near &quot;else&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="281" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">34</arg>. <arg fmt="%s" index="3">Cannot open include file &quot;sdram_para.v&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">65</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Macro &lt;W_WRITE&gt; is not defined.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Macro &lt;W_RD&gt; is not defined.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/01FPGA_PRO/V13ERSION/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">57</arg>. <arg fmt="%s" index="3">Syntax error near &quot;else&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">65</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="870" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Macro &lt;W_RD&gt; is not defined.</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_fifo_ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_para.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_test.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram_rw_test.v&quot; into library work</arg>
 </msg>
 
 </messages>

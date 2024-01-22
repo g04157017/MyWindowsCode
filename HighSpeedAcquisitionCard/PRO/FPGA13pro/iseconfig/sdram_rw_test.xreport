@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-01-22T09:30:55</DateModified>
+  <DateModified>2024-01-22T15:23:01</DateModified>
   <ModuleName>sdram_rw_test</ModuleName>
   <SummaryTimeStamp>2024-01-10T14:16:53</SummaryTimeStamp>
-  <SavedFilePath>F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/iseconfig/sdram_rw_test.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro\</ImplementationReportsDirectory>
+  <SavedFilePath>F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro/iseconfig/sdram_rw_test.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro\</ImplementationReportsDirectory>
   <DateInitialized>2024-01-10T11:41:57</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
