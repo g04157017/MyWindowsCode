@@ -1,0 +1,288 @@
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+xst -intstyle ise -ifn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.xst" -ofn "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../ip_core/fifo -sd ../../ip_core/clk -nt timestamp -uc F:/01FPGA_PRO/V13ERSION/UCF/top.ucf -p xc6slx25-ftg256-3 sdram_rw_test_cs.ngc sdram_rw_test.ngd  
+map -intstyle ise -p xc6slx25-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sdram_rw_test_map.ncd sdram_rw_test.ngd sdram_rw_test.pcf 
+par -w -intstyle ise -ol high -mt off sdram_rw_test_map.ncd sdram_rw_test.ncd sdram_rw_test.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sdram_rw_test.twx sdram_rw_test.ncd -o sdram_rw_test.twr sdram_rw_test.pcf 
+bitgen -intstyle ise -f sdram_rw_test.ut sdram_rw_test.ncd 

@@ -1,4 +1,9 @@
 //****************************************Copyright (c)***********************************//
+//技术支持：www.openedv.com
+//淘宝店铺：http://openedv.taobao.com 
+//关注微信公众平台微信号："正点原子"，免费获取FPGA & STM32资料。
+//版权所有，盗版必究。
+//Copyright(C) 正点原子 2018-2028
 //All rights reserved                               
 //----------------------------------------------------------------------------------------
 // File name:           sdram_controller
@@ -6,8 +11,8 @@
 // Last Version:        V1.0
 // Descriptions:        SDRAM 控制器
 //----------------------------------------------------------------------------------------
-// Created by:          LiuPeng
-// Created date:        2023/12/08 8:41:06
+// Created by:          正点原子
+// Created date:        2018/3/18 8:41:06
 // Version:             V1.0
 // Descriptions:        The original version
 //
@@ -54,6 +59,8 @@ wire       sdram_rd_wr;			    // SDRAM读/写控制信号,低电平为写，高电平为读
 //*****************************************************
 //**                    main code
 //*****************************************************     
+
+//assign sdram_ras_n = sdram_wr_req ;
 
 // SDRAM 状态控制模块                
 sdram_ctrl u_sdram_ctrl(		    

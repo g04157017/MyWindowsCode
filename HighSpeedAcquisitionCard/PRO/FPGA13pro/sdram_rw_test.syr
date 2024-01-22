@@ -1,0 +1,1006 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Reading design: sdram_rw_test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sdram_rw_test.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sdram_rw_test"
+Output Format                      : NGC
+Target Device                      : xc6slx25-3-ftg256
+
+---- Source Options
+Top Module Name                    : sdram_rw_test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../../ip_core/fifo" "../../ip_core/clk"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_data.v" into library work
+Parsing module <sdram_data>.
+Parsing verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\/sdram_para.v" included at line 34.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_ctrl.v" into library work
+Parsing module <sdram_ctrl>.
+Parsing verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\/sdram_para.v" included at line 40.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_cmd.v" into library work
+Parsing module <sdram_cmd>.
+Parsing verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\/sdram_para.v" included at line 45.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\wrfifo.v" into library work
+Parsing module <wrfifo>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\rdfifo.v" into library work
+Parsing module <rdfifo>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" into library work
+Parsing module <sdram_fifo_ctrl>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_controller.v" into library work
+Parsing module <sdram_controller>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\ClockForwarding.v" into library work
+Parsing module <ClockForwarding>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_top.v" into library work
+Parsing module <sdram_top>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_test.v" into library work
+Parsing module <sdram_test>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\led_ctl\led_disp.v" into library work
+Parsing module <led_disp>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" into library work
+Parsing module <pll_clk>.
+Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram_rw_test.v" into library work
+Parsing module <sdram_rw_test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <sdram_rw_test>.
+
+Elaborating module <pll_clk>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=12,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=12,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=6,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=6,CLKOUT2_PHASE=-75.0,CLKOUT2_DUTY_CYCLE=0.5,CLKIN_PERIOD=20.0,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" Line 124: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" Line 125: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" Line 126: Assignment to clkout5_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <sdram_test>.
+WARNING:HDLCompiler:413 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_test.v" Line 77: Result of 24-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <led_disp>.
+
+Elaborating module <sdram_top>.
+WARNING:HDLCompiler:1016 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\ClockForwarding.v" Line 11: Port CE is not connected to this instance
+
+Elaborating module <ClockForwarding>.
+
+Elaborating module <ODDR2(DDR_ALIGNMENT="C0D0",INIT=1'b0,SRTYPE="ASYNC")>.
+
+Elaborating module <sdram_fifo_ctrl>.
+
+Elaborating module <wrfifo>.
+WARNING:HDLCompiler:1499 - "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\wrfifo.v" Line 39: Empty module <wrfifo> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 226: Assignment to _ ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 227: Assignment to _ ignored, since the identifier is never used
+
+Elaborating module <rdfifo>.
+WARNING:HDLCompiler:1499 - "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\rdfifo.v" Line 39: Empty module <rdfifo> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 244: Assignment to _ ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 245: Assignment to _ ignored, since the identifier is never used
+
+Elaborating module <sdram_controller>.
+
+Elaborating module <sdram_ctrl>.
+
+Elaborating module <sdram_cmd>.
+
+Elaborating module <sdram_data>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sdram_rw_test>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram_rw_test.v".
+        DATA_LENG_MAX = 24'b000000000000100000000000
+    Summary:
+	no macro.
+Unit <sdram_rw_test> synthesized.
+
+Synthesizing Unit <pll_clk>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v".
+    Summary:
+	no macro.
+Unit <pll_clk> synthesized.
+
+Synthesizing Unit <sdram_test>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_test.v".
+        DATA_LENG = 24'b000000000000100000000000
+    Found 24-bit register for signal <wr_cnt>.
+    Found 24-bit register for signal <rd_cnt>.
+    Found 16-bit register for signal <wr_data>.
+    Found 1-bit register for signal <init_done_d1>.
+    Found 1-bit register for signal <wr_en>.
+    Found 1-bit register for signal <rd_en>.
+    Found 1-bit register for signal <rd_valid>.
+    Found 1-bit register for signal <error_flag>.
+    Found 1-bit register for signal <init_done_d0>.
+    Found 24-bit adder for signal <wr_cnt[23]_GND_5_o_add_1_OUT> created at line 64.
+    Found 24-bit adder for signal <rd_cnt[23]_GND_5_o_add_10_OUT> created at line 99.
+    Found 24-bit comparator lessequal for signal <n0007> created at line 75
+    Found 24-bit comparator greater for signal <n0009> created at line 75
+    Found 24-bit comparator greater for signal <rd_cnt[23]_GND_5_o_LessThan_10_o> created at line 98
+    Found 24-bit comparator not equal for signal <n0026> created at line 119
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  70 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <sdram_test> synthesized.
+
+Synthesizing Unit <led_disp>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\led_ctl\led_disp.v".
+    Found 25-bit register for signal <led_cnt>.
+    Found 1-bit register for signal <led>.
+    Found 25-bit adder for signal <led_cnt[24]_GND_6_o_add_1_OUT> created at line 40.
+    Found 25-bit comparator greater for signal <led_cnt[24]_PWR_6_o_LessThan_1_o> created at line 39
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <led_disp> synthesized.
+
+Synthesizing Unit <sdram_top>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_top.v".
+    Summary:
+	no macro.
+Unit <sdram_top> synthesized.
+
+Synthesizing Unit <ClockForwarding>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\ClockForwarding.v".
+    Summary:
+	no macro.
+Unit <ClockForwarding> synthesized.
+
+Synthesizing Unit <sdram_fifo_ctrl>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v".
+INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 212: Output port <full> of the instance <u_wrfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 212: Output port <empty> of the instance <u_wrfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 231: Output port <full> of the instance <u_rdfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 231: Output port <empty> of the instance <u_rdfifo> is unconnected or connected to loadless signal.
+    Found 24-bit register for signal <sdram_wr_addr>.
+    Found 24-bit register for signal <sdram_rd_addr>.
+    Found 1-bit register for signal <wr_ack_r2>.
+    Found 1-bit register for signal <rd_ack_r1>.
+    Found 1-bit register for signal <rd_ack_r2>.
+    Found 1-bit register for signal <wr_load_r1>.
+    Found 1-bit register for signal <wr_load_r2>.
+    Found 1-bit register for signal <rd_load_r1>.
+    Found 1-bit register for signal <rd_load_r2>.
+    Found 1-bit register for signal <read_valid_r1>.
+    Found 1-bit register for signal <read_valid_r2>.
+    Found 1-bit register for signal <sdram_wr_req>.
+    Found 1-bit register for signal <sdram_rd_req>.
+    Found 1-bit register for signal <wr_ack_r1>.
+    Found 24-bit adder for signal <sdram_wr_addr[23]_GND_10_o_add_2_OUT> created at line 162.
+    Found 24-bit adder for signal <sdram_rd_addr[23]_GND_10_o_add_9_OUT> created at line 177.
+    Found 24-bit comparator greater for signal <sdram_wr_addr[23]_wr_max_addr[23]_LessThan_2_o> created at line 161
+    Found 24-bit comparator greater for signal <sdram_rd_addr[23]_rd_max_addr[23]_LessThan_9_o> created at line 176
+    Found 10-bit comparator lessequal for signal <n0032> created at line 191
+    Found 10-bit comparator greater for signal <rdf_use[9]_rd_length[9]_LessThan_16_o> created at line 195
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  60 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <sdram_fifo_ctrl> synthesized.
+
+Synthesizing Unit <sdram_controller>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_controller.v".
+    Summary:
+	no macro.
+Unit <sdram_controller> synthesized.
+
+Synthesizing Unit <sdram_ctrl>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_ctrl.v".
+        TRP_CLK = 10'b0000000100
+        TRC_CLK = 10'b0000000110
+        TRSC_CLK = 10'b0000000110
+        TRCD_CLK = 10'b0000000010
+        TCL_CLK = 10'b0000000011
+        TWR_CLK = 10'b0000000010
+    Found 11-bit register for signal <cnt_refresh>.
+    Found 10-bit register for signal <cnt_clk>.
+    Found 4-bit register for signal <init_ar_cnt>.
+    Found 4-bit register for signal <work_state>.
+    Found 5-bit register for signal <init_state>.
+    Found 15-bit register for signal <cnt_200us>.
+    Found 1-bit register for signal <sdram_ref_req>.
+    Found 1-bit register for signal <sdram_rd_wr>.
+    Found finite state machine <FSM_0> for signal <work_state>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 11                                             |
+    | Outputs            | 9                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <init_state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 21                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 11                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 15-bit adder for signal <cnt_200us[14]_GND_14_o_add_13_OUT> created at line 88.
+    Found 11-bit adder for signal <cnt_refresh[10]_GND_14_o_add_17_OUT> created at line 98.
+    Found 10-bit adder for signal <cnt_clk[9]_GND_14_o_add_21_OUT> created at line 118.
+    Found 4-bit adder for signal <init_ar_cnt[3]_GND_14_o_add_26_OUT> created at line 127.
+    Found 10-bit comparator greater for signal <cnt_clk[9]_sdram_wr_burst[9]_LessThan_8_o> created at line 77
+    Found 10-bit comparator lessequal for signal <n0014> created at line 81
+    Found 10-bit comparator greater for signal <cnt_clk[9]_sdram_rd_burst[9]_LessThan_12_o> created at line 81
+    Found 15-bit comparator greater for signal <cnt_200us[14]_PWR_15_o_LessThan_13_o> created at line 87
+    Found 11-bit comparator greater for signal <cnt_refresh[10]_GND_14_o_LessThan_17_o> created at line 97
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  42 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+	inferred   3 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <sdram_ctrl> synthesized.
+
+Synthesizing Unit <sdram_cmd>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_cmd.v".
+    Found 13-bit register for signal <sdram_addr>.
+    Found 2-bit register for signal <sdram_ba>.
+    Found 5-bit register for signal <sdram_cmd_r>.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred  43 Multiplexer(s).
+Unit <sdram_cmd> synthesized.
+
+Synthesizing Unit <sdram_data>.
+    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_data.v".
+WARNING:Xst:647 - Input <cnt_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 16-bit register for signal <sdram_din_r>.
+    Found 16-bit register for signal <sdram_dout_r>.
+    Found 1-bit register for signal <sdram_out_en>.
+    Found 1-bit tristate buffer for signal <sdram_data<15>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<14>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<13>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<12>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<11>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<10>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<9>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<8>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<7>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<6>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<5>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<4>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<3>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<2>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<1>> created at line 46
+    Found 1-bit tristate buffer for signal <sdram_data<0>> created at line 46
+    Summary:
+	inferred  33 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <sdram_data> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 10-bit adder                                          : 1
+ 11-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 24-bit adder                                          : 4
+ 25-bit adder                                          : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 37
+ 1-bit register                                        : 22
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 13-bit register                                       : 1
+ 15-bit register                                       : 1
+ 16-bit register                                       : 3
+ 2-bit register                                        : 1
+ 24-bit register                                       : 4
+ 25-bit register                                       : 1
+ 4-bit register                                        : 1
+ 5-bit register                                        : 1
+# Comparators                                          : 14
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greater                             : 1
+ 15-bit comparator greater                             : 1
+ 24-bit comparator greater                             : 4
+ 24-bit comparator lessequal                           : 1
+ 24-bit comparator not equal                           : 1
+ 25-bit comparator greater                             : 1
+# Multiplexers                                         : 57
+ 1-bit 2-to-1 multiplexer                              : 4
+ 10-bit 2-to-1 multiplexer                             : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+ 13-bit 2-to-1 multiplexer                             : 16
+ 16-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 17
+ 24-bit 2-to-1 multiplexer                             : 6
+ 25-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 9
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../../ip_core/fifo/wrfifo.ngc>.
+Reading core <../../ip_core/fifo/rdfifo.ngc>.
+Loading core <wrfifo> for timing and area information for instance <u_wrfifo>.
+Loading core <rdfifo> for timing and area information for instance <u_rdfifo>.
+
+Synthesizing (advanced) Unit <led_disp>.
+The following registers are absorbed into counter <led_cnt>: 1 register on signal <led_cnt>.
+Unit <led_disp> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sdram_ctrl>.
+The following registers are absorbed into counter <cnt_refresh>: 1 register on signal <cnt_refresh>.
+The following registers are absorbed into counter <cnt_clk>: 1 register on signal <cnt_clk>.
+The following registers are absorbed into counter <init_ar_cnt>: 1 register on signal <init_ar_cnt>.
+The following registers are absorbed into counter <cnt_200us>: 1 register on signal <cnt_200us>.
+Unit <sdram_ctrl> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sdram_test>.
+The following registers are absorbed into counter <wr_cnt>: 1 register on signal <wr_cnt>.
+The following registers are absorbed into counter <rd_cnt>: 1 register on signal <rd_cnt>.
+Unit <sdram_test> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 24-bit adder                                          : 2
+# Counters                                             : 7
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 15-bit up counter                                     : 1
+ 24-bit up counter                                     : 2
+ 25-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 138
+ Flip-Flops                                            : 138
+# Comparators                                          : 14
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greater                             : 1
+ 15-bit comparator greater                             : 1
+ 24-bit comparator greater                             : 4
+ 24-bit comparator lessequal                           : 1
+ 24-bit comparator not equal                           : 1
+ 25-bit comparator greater                             : 1
+# Multiplexers                                         : 51
+ 1-bit 2-to-1 multiplexer                              : 3
+ 13-bit 2-to-1 multiplexer                             : 16
+ 16-bit 2-to-1 multiplexer                             : 1
+ 2-bit 2-to-1 multiplexer                              : 17
+ 24-bit 2-to-1 multiplexer                             : 5
+ 5-bit 2-to-1 multiplexer                              : 9
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <u_sdram_top/u_sdram_controller/u_sdram_ctrl/FSM_1> on signal <init_state[1:3]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00000 | 000
+ 00001 | 001
+ 00010 | 010
+ 00011 | 011
+ 00100 | 100
+ 00101 | 101
+ 00110 | 110
+ 00111 | 111
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <u_sdram_top/u_sdram_controller/u_sdram_ctrl/FSM_0> on signal <work_state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 1011  | 1011
+ 0010  | 0010
+ 0110  | 0110
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 1001  | 1001
+ 0111  | 0111
+ 1000  | 1000
+ 1010  | 1010
+ 1100  | 1100
+-------------------
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_8> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_7> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_6> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_5> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_4> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_3> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_2> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_1> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_rd_addr_0> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_8> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_7> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_6> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_5> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_4> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_3> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_2> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_1> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <sdram_wr_addr_0> (without init value) has a constant value of 0 in block <sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1902 - Value C0D0 for attribute DDR_ALIGNMENT of instance u_oddr2 in unit ClockForwarding is not supported
+INFO:Xst:1901 - Instance pll_base_inst in unit pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+WARNING:Xst:1902 - Value C0D0 for attribute DDR_ALIGNMENT of instance u_oddr2 in unit ClockForwarding is not supported
+
+Optimizing unit <pll_clk> ...
+
+Optimizing unit <sdram_top> ...
+
+Optimizing unit <sdram_controller> ...
+
+Optimizing unit <sdram_rw_test> ...
+
+Optimizing unit <sdram_test> ...
+
+Optimizing unit <led_disp> ...
+
+Optimizing unit <sdram_fifo_ctrl> ...
+
+Optimizing unit <sdram_cmd> ...
+
+Optimizing unit <sdram_data> ...
+
+Optimizing unit <sdram_ctrl> ...
+
+Optimizing unit <ClockForwarding> ...
+WARNING:Xst:1710 - FF/Latch <wr_cnt_23> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_22> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_21> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_20> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_19> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_16> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_15> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_14> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_13> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_12> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_23> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_22> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_21> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_20> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_19> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_16> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_15> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_14> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_13> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_12> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_data_15> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_data_14> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_data_13> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_data_12> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_23> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_22> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_21> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_20> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_19> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_18> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_17> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_16> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_15> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_14> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_13> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_12> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_11> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_23> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_22> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_21> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_20> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_19> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_18> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_17> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_16> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_15> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_14> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_13> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_12> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_11> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <cnt_refresh_10> (without init value) has a constant value of 0 in block <u_sdram_ctrl>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sdram_rw_test, actual ratio is 0.
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_wrfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_rdfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_wrfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_rdfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_wrfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_rdfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_wrfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_rdfifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_rdfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 185
+ Flip-Flops                                            : 185
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sdram_rw_test.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 773
+#      GND                         : 11
+#      INV                         : 25
+#      LUT1                        : 38
+#      LUT2                        : 131
+#      LUT3                        : 69
+#      LUT4                        : 73
+#      LUT5                        : 49
+#      LUT6                        : 103
+#      MUXCY                       : 157
+#      MUXF7                       : 2
+#      VCC                         : 7
+#      XORCY                       : 108
+# FlipFlops/Latches                : 496
+#      FD                          : 8
+#      FDC                         : 268
+#      FDCE                        : 167
+#      FDP                         : 48
+#      FDPE                        : 3
+#      FDSE                        : 1
+#      ODDR2                       : 1
+# RAMS                             : 2
+#      RAMB16BWER                  : 2
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 42
+#      IBUF                        : 2
+#      IOBUF                       : 16
+#      OBUF                        : 24
+# Others                           : 1
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx25ftg256-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             496  out of  30064     1%  
+ Number of Slice LUTs:                  488  out of  15032     3%  
+    Number used as Logic:               488  out of  15032     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    709
+   Number with an unused Flip Flop:     213  out of    709    30%  
+   Number with an unused LUT:           221  out of    709    31%  
+   Number of fully used LUT-FF pairs:   275  out of    709    38%  
+   Number of unique control sets:        43
+
+IO Utilization: 
+ Number of IOs:                          42
+ Number of bonded IOBs:                  42  out of    186    22%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                2  out of     52     3%  
+    Number using Block RAM only:          2
+ Number of BUFG/BUFGCTRLs:                4  out of     16    25%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+u_pll_clk/pll_base_inst/CLKOUT0    | BUFG                   | 215   |
+u_pll_clk/pll_base_inst/CLKOUT1    | BUFG                   | 284   |
+u_pll_clk/pll_base_inst/CLKOUT2    | BUFG                   | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.002ns (Maximum Frequency: 166.604MHz)
+   Minimum input arrival time before clock: 5.177ns
+   Maximum output required time after clock: 4.807ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
+  Clock period: 4.961ns (frequency: 201.572MHz)
+  Total number of paths / destination ports: 9778 / 430
+-------------------------------------------------------------------------
+Delay:               4.961ns (Levels of Logic = 28)
+  Source:            u_led_disp/led_cnt_21 (FF)
+  Destination:       u_led_disp/led_cnt_24 (FF)
+  Source Clock:      u_pll_clk/pll_base_inst/CLKOUT0 rising
+  Destination Clock: u_pll_clk/pll_base_inst/CLKOUT0 rising
+
+  Data Path: u_led_disp/led_cnt_21 to u_led_disp/led_cnt_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   0.995  led_cnt_21 (led_cnt_21)
+     LUT5:I0->O            1   0.203   0.808  led_cnt[24]_PWR_6_o_LessThan_1_o_inv_inv31 (led_cnt[24]_PWR_6_o_LessThan_1_o_inv_inv3)
+     LUT6:I3->O           26   0.205   1.207  led_cnt[24]_PWR_6_o_LessThan_1_o_inv_inv34 (led_cnt[24]_PWR_6_o_LessThan_1_o_inv_inv)
+     LUT2:I1->O            1   0.205   0.000  Mcount_led_cnt_lut<0> (Mcount_led_cnt_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Mcount_led_cnt_cy<0> (Mcount_led_cnt_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<1> (Mcount_led_cnt_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<2> (Mcount_led_cnt_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<3> (Mcount_led_cnt_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<4> (Mcount_led_cnt_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<5> (Mcount_led_cnt_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<6> (Mcount_led_cnt_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<7> (Mcount_led_cnt_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<8> (Mcount_led_cnt_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<9> (Mcount_led_cnt_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<10> (Mcount_led_cnt_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<11> (Mcount_led_cnt_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<12> (Mcount_led_cnt_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<13> (Mcount_led_cnt_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<14> (Mcount_led_cnt_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<15> (Mcount_led_cnt_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<16> (Mcount_led_cnt_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<17> (Mcount_led_cnt_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<18> (Mcount_led_cnt_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<19> (Mcount_led_cnt_cy<19>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<20> (Mcount_led_cnt_cy<20>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<21> (Mcount_led_cnt_cy<21>)
+     MUXCY:CI->O           1   0.019   0.000  Mcount_led_cnt_cy<22> (Mcount_led_cnt_cy<22>)
+     MUXCY:CI->O           0   0.019   0.000  Mcount_led_cnt_cy<23> (Mcount_led_cnt_cy<23>)
+     XORCY:CI->O           1   0.180   0.000  Mcount_led_cnt_xor<24> (Mcount_led_cnt24)
+     FDC:D                     0.102          led_cnt_24
+    ----------------------------------------
+    Total                      4.961ns (1.951ns logic, 3.010ns route)
+                                       (39.3% logic, 60.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
+  Clock period: 6.002ns (frequency: 166.604MHz)
+  Total number of paths / destination ports: 4629 / 541
+-------------------------------------------------------------------------
+Delay:               6.002ns (Levels of Logic = 6)
+  Source:            u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_3 (FF)
+  Destination:       u_sdram_top/u_sdram_fifo_ctrl/u_rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_9 (FF)
+  Source Clock:      u_pll_clk/pll_base_inst/CLKOUT1 rising
+  Destination Clock: u_pll_clk/pll_base_inst/CLKOUT1 rising
+
+  Data Path: u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_3 to u_sdram_top/u_sdram_fifo_ctrl/u_rdfifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.447   1.118  cnt_clk_3 (cnt_clk_3)
+     LUT6:I1->O            9   0.203   0.830  cnt_rst_n_INV_144_o221 (cnt_rst_n_INV_144_o22)
+     LUT4:I3->O            1   0.205   0.580  sdram_rd_ack3_SW0 (N40)
+     LUT6:I5->O            5   0.205   0.819  sdram_rd_ack4 (sdram_rd_ack)
+     end scope: 'u_sdram_top/u_sdram_controller/u_sdram_ctrl:sdram_rd_ack'
+     end scope: 'u_sdram_top/u_sdram_controller:sdram_rd_ack'
+     begin scope: 'u_sdram_top/u_sdram_fifo_ctrl:sdram_rd_ack'
+     begin scope: 'u_sdram_top/u_sdram_fifo_ctrl/u_rdfifo:wr_en'
+     LUT2:I0->O           19   0.203   1.071  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/ram_wr_en_i1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/ram_wr_en)
+     FDPE:CE                   0.322          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_1
+    ----------------------------------------
+    Total                      6.002ns (1.585ns logic, 4.417ns route)
+                                       (26.4% logic, 73.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 74 / 74
+-------------------------------------------------------------------------
+Offset:              5.106ns (Levels of Logic = 4)
+  Source:            rst_n (PAD)
+  Destination:       u_sdram_test/wr_en (FF)
+  Destination Clock: u_pll_clk/pll_base_inst/CLKOUT0 rising
+
+  Data Path: rst_n to u_sdram_test/wr_en
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.755  rst_n_IBUF (rst_n_IBUF)
+     LUT2:I0->O           10   0.203   0.856  sys_rst_n1 (sys_rst_n)
+     begin scope: 'u_sdram_test:rst_n'
+     INV:I->O             42   0.206   1.433  rst_n_inv1_INV_0 (rst_n_inv)
+     FDC:CLR                   0.430          wr_en
+    ----------------------------------------
+    Total                      5.106ns (2.061ns logic, 3.045ns route)
+                                       (40.4% logic, 59.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 126 / 126
+-------------------------------------------------------------------------
+Offset:              5.177ns (Levels of Logic = 5)
+  Source:            rst_n (PAD)
+  Destination:       u_sdram_top/u_sdram_controller/u_sdram_ctrl/init_state_FSM_FFd3 (FF)
+  Destination Clock: u_pll_clk/pll_base_inst/CLKOUT1 rising
+
+  Data Path: rst_n to u_sdram_top/u_sdram_controller/u_sdram_ctrl/init_state_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.755  rst_n_IBUF (rst_n_IBUF)
+     LUT2:I0->O           10   0.203   0.856  sys_rst_n1 (sys_rst_n)
+     begin scope: 'u_sdram_top:rst_n'
+     begin scope: 'u_sdram_top/u_sdram_controller:rst_n'
+     begin scope: 'u_sdram_top/u_sdram_controller/u_sdram_ctrl:rst_n'
+     INV:I->O             47   0.206   1.504  rst_n_inv1_INV_0 (rst_n_inv)
+     FDC:CLR                   0.430          work_state_FSM_FFd3
+    ----------------------------------------
+    Total                      5.177ns (2.061ns logic, 3.116ns route)
+                                       (39.8% logic, 60.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 52 / 36
+-------------------------------------------------------------------------
+Offset:              4.807ns (Levels of Logic = 4)
+  Source:            u_sdram_top/u_sdram_controller/u_sdram_data/sdram_out_en (FF)
+  Destination:       sdram_data<15> (PAD)
+  Source Clock:      u_pll_clk/pll_base_inst/CLKOUT1 rising
+
+  Data Path: u_sdram_top/u_sdram_controller/u_sdram_data/sdram_out_en to sdram_data<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  sdram_out_en (sdram_out_en)
+     INV:I->O             16   0.206   1.004  sdram_out_en_inv1_INV_0 (sdram_out_en_inv)
+     IOBUF:T->IO               2.571          sdram_data_15_IOBUF (sdram_data<15>)
+     end scope: 'u_sdram_top/u_sdram_controller/u_sdram_data:sdram_data<15>'
+     end scope: 'u_sdram_top/u_sdram_controller:sdram_data<15>'
+     end scope: 'u_sdram_top:sdram_data<15>'
+    ----------------------------------------
+    Total                      4.807ns (3.224ns logic, 1.583ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 2)
+  Source:            u_led_disp/led (FF)
+  Destination:       led (PAD)
+  Source Clock:      u_pll_clk/pll_base_inst/CLKOUT0 rising
+
+  Data Path: u_led_disp/led to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.616  led (led)
+     end scope: 'u_led_disp:led'
+     OBUF:I->O                 2.571          led_OBUF (led)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock u_pll_clk/pll_base_inst/CLKOUT0
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+u_pll_clk/pll_base_inst/CLKOUT0|    4.961|         |         |         |
+u_pll_clk/pll_base_inst/CLKOUT1|    4.050|         |         |         |
+-------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u_pll_clk/pll_base_inst/CLKOUT1
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+u_pll_clk/pll_base_inst/CLKOUT0|    1.128|         |         |         |
+u_pll_clk/pll_base_inst/CLKOUT1|    6.002|         |         |         |
+-------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.50 secs
+ 
+--> 
+
+Total memory usage is 4503128 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   87 (   0 filtered)
+Number of infos    :   37 (   0 filtered)
+

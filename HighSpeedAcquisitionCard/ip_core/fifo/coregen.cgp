@@ -4,6 +4,6 @@ SET device = xc6slx25
 SET devicefamily = spartan6
 SET flowvendor = Other
 SET package = ftg256
-SET speedgrade = -2
+SET speedgrade = -3
 SET verilogsim = true
 SET vhdlsim = false

@@ -1,0 +1,9 @@
+Storage Target: SPI Flash Single FPGA
+16M
+FF
+sdram_rw_test
+F:/01FPGA_PRO/V13ERSION/ReSult
+
+MCS
+No
+

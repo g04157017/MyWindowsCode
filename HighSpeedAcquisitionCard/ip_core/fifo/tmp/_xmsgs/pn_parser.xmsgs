@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/01FPGA_PRO/HighSpeedAcquisitionCard/ip_core/fifo/wrfifo.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/01FPGA_PRO/new_test/ip_core/fifo/wrfifo.v&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -1,4 +1,9 @@
 //****************************************Copyright (c)***********************************//
+//技术支持：www.openedv.com
+//淘宝店铺：http://openedv.taobao.com 
+//关注微信公众平台微信号："正点原子"，免费获取FPGA & STM32资料。
+//版权所有，盗版必究。
+//Copyright(C) 正点原子 2018-2028
 //All rights reserved                               
 //----------------------------------------------------------------------------------------
 // File name:           sdram_fifo_ctrl
@@ -6,7 +11,8 @@
 // Last Version:        V1.0
 // Descriptions:        SDRAM 读写端口FIFO控制模块
 //----------------------------------------------------------------------------------------
-// Created date:        2023/12/08 8:41:06
+// Created by:          正点原子
+// Created date:        2018/3/18 8:41:06
 // Version:             V1.0
 // Descriptions:        The original version
 //
@@ -216,9 +222,10 @@ wrfifo	u_wrfifo(
 
 	.rd_data_count	(wrf_use),			     //FIFO中的数据量
 	.rst		(~rst_n | wr_load_flag),  //异步清零信号
-	.full    (_),
-	.empty   (_)
-    );	
+	
+	.full(_), // output full
+   .empty(_) // output empty
+);	
 
 //例化读端口FIFO
 rdfifo	u_rdfifo(
@@ -233,9 +240,9 @@ rdfifo	u_rdfifo(
 	.dout			(rdf_dout),			     //读数据
 
 	.wr_data_count	(rdf_use),        	     //FIFO中的数据量
-	.rst		(~rst_n | rd_load_flag),  //异步清零信号  
-	.full    (_),
-	.empty   (_)
-    );
+	.rst		(~rst_n | rd_load_flag),  //异步清零信号 
+   .full(_), // output full
+   .empty(_) //output empty
+);
     
 endmodule 

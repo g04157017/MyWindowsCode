@@ -1,4 +1,9 @@
 //****************************************Copyright (c)***********************************//
+//技术支持：www.openedv.com
+//淘宝店铺：http://openedv.taobao.com 
+//关注微信公众平台微信号："正点原子"，免费获取FPGA & STM32资料。
+//版权所有，盗版必究。
+//Copyright(C) 正点原子 2018-2028
 //All rights reserved                               
 //----------------------------------------------------------------------------------------
 // File name:           sdram_ctrl
@@ -6,8 +11,8 @@
 // Last Version:        V1.0
 // Descriptions:        SDRAM 状态控制模块
 //----------------------------------------------------------------------------------------
-// Created by:          LiuPeng 
-// Created date:        2023/12/08 8:41:06
+// Created by:          正点原子
+// Created date:        2018/3/18 8:41:06
 // Version:             V1.0
 // Descriptions:        The original version
 //
@@ -32,7 +37,7 @@ module sdram_ctrl(
     output reg       sdram_rd_wr 		//SDRAM读/写控制信号，低电平为写，高电平为读
     );
 
-`include "parameter.v"		            //包含SDRAM参数定义模块
+`include "sdram_para.v"		            //包含SDRAM参数定义模块
                                         
 //parameter define                      
 parameter  TRP_CLK	  = 10'd4;	        //预充电有效周期

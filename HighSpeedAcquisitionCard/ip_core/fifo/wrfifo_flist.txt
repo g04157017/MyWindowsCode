@@ -1,5 +1,4 @@
 # Output products list for <wrfifo>
-_xmsgs\pn_parser.xmsgs
 wrfifo.asy
 wrfifo.gise
 wrfifo.ngc

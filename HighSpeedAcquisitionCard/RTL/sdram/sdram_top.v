@@ -1,20 +1,24 @@
-//****************************************Copyright (c)***********************************//
-//All rights reserved                               
-//----------------------------------------------------------------------------------------
-// File name:           sdram_test
-// Last modified Date:  2018/3/18 8:41:06
-// Last Version:        V1.0
-// Descriptions:        SDRAM 控制器顶层模块
-//----------------------------------------------------------------------------------------
-// Created by:          LiuPeng
-// Created date:        2023/12/08 8:41:06
-// Version:             V1.0
-// Descriptions:        The original version
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    18:26:42 01/05/2024 
+// Design Name: 
+// Module Name:    sdram_top 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
 //
-//----------------------------------------------------------------------------------------
-//****************************************************************************************//
-
-module	sdram_top(
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module sdram_top(
 	input         ref_clk,                  //sdram 控制器参考时钟
 	input         out_clk,                  //用于输出的相位偏移时钟
 	input         rst_n,                    //系统复位
@@ -52,25 +56,30 @@ module	sdram_top(
 	output [12:0] sdram_addr,               //SDRAM 行/列地址
 	inout  [15:0] sdram_data,               //SDRAM 数据
 	output [ 1:0] sdram_dqm                 //SDRAM 数据掩码
-    );
-
+);
 //wire define
-wire        sdram_wr_req;                   //sdram 写请求
-wire        sdram_wr_ack;                   //sdram 写响应
-wire [23:0]	sdram_wr_addr;                  //sdram 写地址
-wire [15:0]	sdram_din;                      //写入sdram中的数据
+	wire        sdram_wr_req;                   //sdram 写请求
+	wire        sdram_wr_ack;                   //sdram 写响应
+	wire [23:0]	sdram_wr_addr;                  //sdram 写地址
+	wire [15:0]	sdram_din;                      //写入sdram中的数据
 
-wire        sdram_rd_req;                   //sdram 读请求
-wire        sdram_rd_ack;                   //sdram 读响应
-wire [23:0]	sdram_rd_addr;                   //sdram 读地址
-wire [15:0]	sdram_dout;                     //从sdram中读出的数据
+	wire        sdram_rd_req;                   //sdram 读请求
+	wire        sdram_rd_ack;                   //sdram 读响应
+	wire [23:0]	sdram_rd_addr;                   //sdram 读地址
+	wire [15:0]	sdram_dout;                     //从sdram中读出的数据
 
 //*****************************************************
 //**                    main code
 //***************************************************** 
-assign	sdram_clk = out_clk;                //将相位偏移时钟输出给sdram芯片
-assign	sdram_dqm = 2'b00;                  //读写过程中均不屏蔽数据线
-			
+//	assign	sdram_clk = out_clk;                //将相位偏移时钟输出给sdram芯片
+	assign	sdram_dqm = 2'b00;  
+
+//将相位偏移时钟输出给sdram芯片
+ClockForwarding u_ClockForwarding(
+		.clk_100m_shift  (out_clk),
+		.sdram_clk       (sdram_clk)
+);
+
 //SDRAM 读写端口FIFO控制模块
 sdram_fifo_ctrl u_sdram_fifo_ctrl(
 	.clk_ref			(ref_clk),			//SDRAM控制器时钟
@@ -109,9 +118,9 @@ sdram_fifo_ctrl u_sdram_fifo_ctrl(
 	.sdram_rd_ack		(sdram_rd_ack),	    //sdram 读响应
 	.sdram_rd_addr		(sdram_rd_addr),    //sdram 读地址
 	.sdram_dout			(sdram_dout)		//从sdram中读出的数据
-    );
+);
 
-//SDRAM控制器
+////SDRAM控制器
 sdram_controller u_sdram_controller(
 	.clk				(ref_clk),			//sdram 控制器时钟
 	.rst_n				(rst_n),			//系统复位
@@ -141,6 +150,6 @@ sdram_controller u_sdram_controller(
 	.sdram_ba			(sdram_ba),			//SDRAM Bank地址
 	.sdram_addr			(sdram_addr),		//SDRAM 行/列地址
 	.sdram_data			(sdram_data)		//SDRAM 数据	
-    );
-    
-endmodule 
+);
+
+endmodule

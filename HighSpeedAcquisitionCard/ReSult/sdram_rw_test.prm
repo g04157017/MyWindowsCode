@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o F:\01FPGA_PRO\V13ERSION\ReSult//sdram_rw_test -s 2048 -u 0000 F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.bit -spi 
+
+PROM F:\01FPGA_PRO\V13ERSION\ReSult\sdram_rw_test.prm map: Fri Jan 19 14:30:54 2024
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          2048K
+PROM start    0000:0000
+PROM end      001f:ffff
+PROM checksum 13c58d9a
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    000c:3ab5     Jan 19 14:30:14 2024 F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.bit

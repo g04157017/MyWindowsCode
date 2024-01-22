@@ -1,21 +1,25 @@
-//****************************************Copyright (c)***********************************//
-//All rights reserved                               
-//----------------------------------------------------------------------------------------
-// File name:           sdram_test
-// Last modified Date:  2018/3/18 8:41:06
-// Last Version:        V1.0
-// Descriptions:        SDRAM读写测试: 向SDRAM中写入数据,然后将数据读出,并判断读出的数据是否正确
-//----------------------------------------------------------------------------------------
-// Created by:          LiuPeng
-// Created date:        2023/12/08 8:41:06
-// Version:             V1.0
-// Descriptions:        The original version
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    17:41:12 01/11/2024 
+// Design Name: liupeng
+// Module Name:    sdram_test 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
 //
-//----------------------------------------------------------------------------------------
-//****************************************************************************************//
-
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
 module sdram_test(
-    input             clk_50m,          //时钟
+	 input             clk_50m,          //时钟
     input             rst_n,            //复位,低有效
     
     output reg        wr_en,            //SDRAM 写使能
@@ -30,10 +34,12 @@ module sdram_test(
 //reg define
 reg        init_done_d0;                //寄存SDRAM初始化完成信号
 reg        init_done_d1;                //寄存SDRAM初始化完成信号
-reg [10:0] wr_cnt;                      //写操作计数器
-reg [10:0] rd_cnt;                      //读操作计数器
+reg [23:0] wr_cnt;                      //写操作计数器
+reg [23:0] rd_cnt;                      //读操作计数器
 reg        rd_valid;                    //读数据有效标志
-   
+
+//parameter define 
+parameter DATA_LENG = 24'd2048;
 //*****************************************************
 //**                    main code
 //***************************************************** 
@@ -53,8 +59,8 @@ end
 //SDRAM初始化完成之后,写操作计数器开始计数
 always @(posedge clk_50m or negedge rst_n) begin
     if(!rst_n) 
-        wr_cnt <= 11'd0;  
-    else if(init_done_d1 && (wr_cnt <= 11'd1024))
+        wr_cnt <= 24'd0;  
+    else if(init_done_d1 && (wr_cnt <= DATA_LENG))
         wr_cnt <= wr_cnt + 1'b1;
     else
         wr_cnt <= wr_cnt;
@@ -66,7 +72,7 @@ always @(posedge clk_50m or negedge rst_n) begin
         wr_en   <= 1'b0;
         wr_data <= 16'd0;
     end
-    else if(wr_cnt >= 11'd1 && (wr_cnt <= 11'd1024)) begin
+    else if(wr_cnt >= 24'd1 && (wr_cnt <= DATA_LENG)) begin
             wr_en   <= 1'b1;            //写使能拉高
             wr_data <= wr_cnt;          //写入数据1~1024
         end    
@@ -80,19 +86,19 @@ end
 always @(posedge clk_50m or negedge rst_n) begin
     if(!rst_n) 
         rd_en <= 1'b0;
-    else if(wr_cnt > 11'd1024)          //写数据完成
+    else if(wr_cnt > DATA_LENG)          //写数据完成
         rd_en <= 1'b1;                  //读使能拉高
 end
 
 //对读操作计数     
 always @(posedge clk_50m or negedge rst_n) begin
     if(!rst_n) 
-        rd_cnt <= 11'd0;
+        rd_cnt <= 24'd0;
     else if(rd_en) begin
-        if(rd_cnt < 11'd1024)
+        if(rd_cnt < DATA_LENG)
             rd_cnt <= rd_cnt + 1'b1;
         else
-            rd_cnt <= 11'd1;
+            rd_cnt <= 24'd1;
     end
 end
 
@@ -100,7 +106,7 @@ end
 always @(posedge clk_50m or negedge rst_n) begin
     if(!rst_n) 
         rd_valid <= 1'b0;
-    else if(rd_cnt == 11'd1024)         //等待第一次读操作结束
+    else if(rd_cnt == DATA_LENG)         //等待第一次读操作结束
         rd_valid <= 1'b1;               //后续读取的数据有效
     else
         rd_valid <= rd_valid;
@@ -116,4 +122,4 @@ always @(posedge clk_50m or negedge rst_n) begin
         error_flag <= error_flag;
 end
 
-endmodule 
+endmodule
