@@ -1,10 +1,10 @@
 #ChipScope Core Inserter Project File Version 3.0
-#Mon Jan 22 11:07:30 CST 2024
-Project.device.designInputFile=F\:\\01FPGA_PRO\\V13ERSION\\PRO\\FPGA13pro\\sdram_rw_test_cs.ngc
-Project.device.designOutputFile=F\:\\01FPGA_PRO\\V13ERSION\\PRO\\FPGA13pro\\sdram_rw_test_cs.ngc
+#Mon Jan 22 16:37:38 CST 2024
+Project.device.designInputFile=F\:\\02git\\HighSpeedAcquisitionCard\\PRO\\FPGA13pro\\sdram_rw_test_cs.ngc
+Project.device.designOutputFile=F\:\\02git\\HighSpeedAcquisitionCard\\PRO\\FPGA13pro\\sdram_rw_test_cs.ngc
 Project.device.deviceFamily=18
 Project.device.enableRPMs=true
-Project.device.outputDirectory=F\:\\01FPGA_PRO\\V13ERSION\\PRO\\FPGA13pro\\_ngo
+Project.device.outputDirectory=F\:\\02git\\HighSpeedAcquisitionCard\\PRO\\FPGA13pro\\_ngo
 Project.device.useSRL16=true
 Project.filter.dimension=1
 Project.filter<0>=
@@ -48,7 +48,7 @@ Project.unit<0>.dataChannel<6>=wr_data<6>
 Project.unit<0>.dataChannel<7>=wr_data<7>
 Project.unit<0>.dataChannel<8>=wr_data<8>
 Project.unit<0>.dataChannel<9>=wr_data<9>
-Project.unit<0>.dataDepth=2048
+Project.unit<0>.dataDepth=16384
 Project.unit<0>.dataEqualsTrigger=true
 Project.unit<0>.dataPortWidth=32
 Project.unit<0>.enableGaps=false

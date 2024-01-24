@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Reading design: sdram_rw_test.prj
 
@@ -108,34 +108,36 @@ Cores Search Directories           : {"../../ip_core/fifo" "../../ip_core/clk"  
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_data.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_data.v" into library work
 Parsing module <sdram_data>.
-Parsing verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\/sdram_para.v" included at line 34.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_ctrl.v" into library work
+Parsing verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\/sdram_para.v" included at line 34.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_ctrl.v" into library work
 Parsing module <sdram_ctrl>.
-Parsing verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\/sdram_para.v" included at line 40.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_cmd.v" into library work
+Parsing verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\/sdram_para.v" included at line 40.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_cmd.v" into library work
 Parsing module <sdram_cmd>.
-Parsing verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\/sdram_para.v" included at line 45.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\wrfifo.v" into library work
+Parsing verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\/sdram_para.v" included at line 45.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\ip_core\fifo\wrfifo.v" into library work
 Parsing module <wrfifo>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\rdfifo.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\ip_core\fifo\rdfifo.v" into library work
 Parsing module <rdfifo>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" into library work
 Parsing module <sdram_fifo_ctrl>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_controller.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_controller.v" into library work
 Parsing module <sdram_controller>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\ClockForwarding.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\ClockForwarding.v" into library work
 Parsing module <ClockForwarding>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_top.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_top.v" into library work
 Parsing module <sdram_top>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_test.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_test.v" into library work
 Parsing module <sdram_test>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\led_ctl\led_disp.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\led_ctl\led_disp.v" into library work
 Parsing module <led_disp>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\AD7606\AD7606_parallel.v" into library work
+Parsing module <ad7606>.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\ip_core\clk\pll_clk.v" into library work
 Parsing module <pll_clk>.
-Analyzing Verilog file "F:\01FPGA_PRO\V13ERSION\RTL\sdram_rw_test.v" into library work
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" into library work
 Parsing module <sdram_rw_test>.
 
 =========================================================================
@@ -147,19 +149,19 @@ Elaborating module <sdram_rw_test>.
 Elaborating module <pll_clk>.
 
 Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=12,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=12,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=6,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=6,CLKOUT2_PHASE=-75.0,CLKOUT2_DUTY_CYCLE=0.5,CLKIN_PERIOD=20.0,REF_JITTER=0.01)>.
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" Line 124: Assignment to clkout3_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" Line 125: Assignment to clkout4_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v" Line 126: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\ip_core\clk\pll_clk.v" Line 124: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\ip_core\clk\pll_clk.v" Line 125: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\ip_core\clk\pll_clk.v" Line 126: Assignment to clkout5_unused ignored, since the identifier is never used
 
 Elaborating module <BUFG>.
 
 Elaborating module <sdram_test>.
-WARNING:HDLCompiler:413 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_test.v" Line 77: Result of 24-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_test.v" Line 77: Result of 24-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <led_disp>.
 
 Elaborating module <sdram_top>.
-WARNING:HDLCompiler:1016 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\ClockForwarding.v" Line 11: Port CE is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\ClockForwarding.v" Line 11: Port CE is not connected to this instance
 
 Elaborating module <ClockForwarding>.
 
@@ -168,14 +170,14 @@ Elaborating module <ODDR2(DDR_ALIGNMENT="C0D0",INIT=1'b0,SRTYPE="ASYNC")>.
 Elaborating module <sdram_fifo_ctrl>.
 
 Elaborating module <wrfifo>.
-WARNING:HDLCompiler:1499 - "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\wrfifo.v" Line 39: Empty module <wrfifo> remains a black box.
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 226: Assignment to _ ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 227: Assignment to _ ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "F:\02git\HighSpeedAcquisitionCard\ip_core\fifo\wrfifo.v" Line 39: Empty module <wrfifo> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" Line 226: Assignment to _ ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" Line 227: Assignment to _ ignored, since the identifier is never used
 
 Elaborating module <rdfifo>.
-WARNING:HDLCompiler:1499 - "F:\01FPGA_PRO\V13ERSION\ip_core\fifo\rdfifo.v" Line 39: Empty module <rdfifo> remains a black box.
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 244: Assignment to _ ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" Line 245: Assignment to _ ignored, since the identifier is never used
+WARNING:HDLCompiler:1499 - "F:\02git\HighSpeedAcquisitionCard\ip_core\fifo\rdfifo.v" Line 39: Empty module <rdfifo> remains a black box.
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" Line 244: Assignment to _ ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" Line 245: Assignment to _ ignored, since the identifier is never used
 
 Elaborating module <sdram_controller>.
 
@@ -185,26 +187,45 @@ Elaborating module <sdram_cmd>.
 
 Elaborating module <sdram_data>.
 
+Elaborating module <ad7606>.
+WARNING:HDLCompiler:413 - "F:\02git\HighSpeedAcquisitionCard\RTL\AD7606\AD7606_parallel.v" Line 54: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 164: Assignment to ad_ch1_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 165: Assignment to ad_ch2_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 166: Assignment to ad_ch3_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 167: Assignment to ad_ch4_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 168: Assignment to ad_ch5_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 169: Assignment to ad_ch6_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 170: Assignment to ad_ch7_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 171: Assignment to ad_ch8_out ignored, since the identifier is never used
+
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <sdram_rw_test>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram_rw_test.v".
-        DATA_LENG_MAX = 24'b000000000000100000000000
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v".
+        DATA_LENG_MAX = 24'b000000001000000000000000
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch1> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch2> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch3> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch4> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch5> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch6> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch7> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch8> of the instance <u_ad7606> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <sdram_rw_test> synthesized.
 
 Synthesizing Unit <pll_clk>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\ip_core\clk\pll_clk.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\ip_core\clk\pll_clk.v".
     Summary:
 	no macro.
 Unit <pll_clk> synthesized.
 
 Synthesizing Unit <sdram_test>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_test.v".
-        DATA_LENG = 24'b000000000000100000000000
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_test.v".
+        DATA_LENG = 24'b000000001000000000000000
     Found 24-bit register for signal <wr_cnt>.
     Found 24-bit register for signal <rd_cnt>.
     Found 16-bit register for signal <wr_data>.
@@ -228,7 +249,7 @@ Synthesizing Unit <sdram_test>.
 Unit <sdram_test> synthesized.
 
 Synthesizing Unit <led_disp>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\led_ctl\led_disp.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\led_ctl\led_disp.v".
     Found 25-bit register for signal <led_cnt>.
     Found 1-bit register for signal <led>.
     Found 25-bit adder for signal <led_cnt[24]_GND_6_o_add_1_OUT> created at line 40.
@@ -241,23 +262,23 @@ Synthesizing Unit <led_disp>.
 Unit <led_disp> synthesized.
 
 Synthesizing Unit <sdram_top>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_top.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_top.v".
     Summary:
 	no macro.
 Unit <sdram_top> synthesized.
 
 Synthesizing Unit <ClockForwarding>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\ClockForwarding.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\ClockForwarding.v".
     Summary:
 	no macro.
 Unit <ClockForwarding> synthesized.
 
 Synthesizing Unit <sdram_fifo_ctrl>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v".
-INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 212: Output port <full> of the instance <u_wrfifo> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 212: Output port <empty> of the instance <u_wrfifo> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 231: Output port <full> of the instance <u_rdfifo> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 231: Output port <empty> of the instance <u_rdfifo> is unconnected or connected to loadless signal.
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v".
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" line 212: Output port <full> of the instance <u_wrfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" line 212: Output port <empty> of the instance <u_wrfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" line 231: Output port <full> of the instance <u_rdfifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_fifo_ctrl.v" line 231: Output port <empty> of the instance <u_rdfifo> is unconnected or connected to loadless signal.
     Found 24-bit register for signal <sdram_wr_addr>.
     Found 24-bit register for signal <sdram_rd_addr>.
     Found 1-bit register for signal <wr_ack_r2>.
@@ -286,13 +307,13 @@ INFO:Xst:3210 - "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_fifo_ctrl.v" line 231: 
 Unit <sdram_fifo_ctrl> synthesized.
 
 Synthesizing Unit <sdram_controller>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_controller.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_controller.v".
     Summary:
 	no macro.
 Unit <sdram_controller> synthesized.
 
 Synthesizing Unit <sdram_ctrl>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_ctrl.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_ctrl.v".
         TRP_CLK = 10'b0000000100
         TRC_CLK = 10'b0000000110
         TRSC_CLK = 10'b0000000110
@@ -351,7 +372,7 @@ Synthesizing Unit <sdram_ctrl>.
 Unit <sdram_ctrl> synthesized.
 
 Synthesizing Unit <sdram_cmd>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_cmd.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_cmd.v".
     Found 13-bit register for signal <sdram_addr>.
     Found 2-bit register for signal <sdram_ba>.
     Found 5-bit register for signal <sdram_cmd_r>.
@@ -361,7 +382,7 @@ Synthesizing Unit <sdram_cmd>.
 Unit <sdram_cmd> synthesized.
 
 Synthesizing Unit <sdram_data>.
-    Related source file is "F:\01FPGA_PRO\V13ERSION\RTL\sdram\sdram_driver\sdram_data.v".
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver\sdram_data.v".
 WARNING:Xst:647 - Input <cnt_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 16-bit register for signal <sdram_din_r>.
     Found 16-bit register for signal <sdram_dout_r>.
@@ -387,40 +408,100 @@ WARNING:Xst:647 - Input <cnt_clk> is never used. This port will be preserved and
 	inferred  16 Tristate(s).
 Unit <sdram_data> synthesized.
 
+Synthesizing Unit <ad7606>.
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\AD7606\AD7606_parallel.v".
+        IDLE = 4'b0000
+        AD_CONV = 4'b0001
+        Wait_1 = 4'b0010
+        Wait_busy = 4'b0011
+        READ_CH1 = 4'b0100
+        READ_CH2 = 4'b0101
+        READ_CH3 = 4'b0110
+        READ_CH4 = 4'b0111
+        READ_CH5 = 4'b1000
+        READ_CH6 = 4'b1001
+        READ_CH7 = 4'b1010
+        READ_CH8 = 4'b1011
+        READ_DONE = 4'b1100
+WARNING:Xst:647 - Input <rst_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <first_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <ad_reset>.
+    Found 4-bit register for signal <state>.
+    Found 16-bit register for signal <ad_ch1>.
+    Found 16-bit register for signal <ad_ch2>.
+    Found 16-bit register for signal <ad_ch3>.
+    Found 16-bit register for signal <ad_ch4>.
+    Found 16-bit register for signal <ad_ch5>.
+    Found 16-bit register for signal <ad_ch6>.
+    Found 16-bit register for signal <ad_ch7>.
+    Found 16-bit register for signal <ad_ch8>.
+    Found 1-bit register for signal <ad_cs>.
+    Found 1-bit register for signal <ad_rd>.
+    Found 1-bit register for signal <ad_convstab>.
+    Found 6-bit register for signal <i>.
+    Found 16-bit register for signal <cnt>.
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 25                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | ad_reset (positive)                            |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit adder for signal <cnt[15]_GND_34_o_add_3_OUT> created at line 54.
+    Found 6-bit adder for signal <i[5]_GND_34_o_add_59_OUT> created at line 210.
+    Found 16-bit comparator greater for signal <cnt[15]_PWR_20_o_LessThan_3_o> created at line 53
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 154 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  13 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <ad7606> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 9
+# Adders/Subtractors                                   : 11
  10-bit adder                                          : 1
  11-bit adder                                          : 1
  15-bit adder                                          : 1
+ 16-bit adder                                          : 1
  24-bit adder                                          : 4
  25-bit adder                                          : 1
  4-bit adder                                           : 1
-# Registers                                            : 37
- 1-bit register                                        : 22
+ 6-bit adder                                           : 1
+# Registers                                            : 51
+ 1-bit register                                        : 26
  10-bit register                                       : 1
  11-bit register                                       : 1
  13-bit register                                       : 1
  15-bit register                                       : 1
- 16-bit register                                       : 3
+ 16-bit register                                       : 12
  2-bit register                                        : 1
  24-bit register                                       : 4
  25-bit register                                       : 1
  4-bit register                                        : 1
  5-bit register                                        : 1
-# Comparators                                          : 14
+ 6-bit register                                        : 1
+# Comparators                                          : 15
  10-bit comparator greater                             : 3
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 1
  15-bit comparator greater                             : 1
+ 16-bit comparator greater                             : 1
  24-bit comparator greater                             : 4
  24-bit comparator lessequal                           : 1
  24-bit comparator not equal                           : 1
  25-bit comparator greater                             : 1
-# Multiplexers                                         : 57
- 1-bit 2-to-1 multiplexer                              : 4
+# Multiplexers                                         : 70
+ 1-bit 2-to-1 multiplexer                              : 8
  10-bit 2-to-1 multiplexer                             : 1
  11-bit 2-to-1 multiplexer                             : 1
  13-bit 2-to-1 multiplexer                             : 16
@@ -430,9 +511,10 @@ Macro Statistics
  25-bit 2-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 1
  5-bit 2-to-1 multiplexer                              : 9
+ 6-bit 2-to-1 multiplexer                              : 9
 # Tristates                                            : 16
  1-bit tristate buffer                                 : 16
-# FSMs                                                 : 2
+# FSMs                                                 : 3
 
 =========================================================================
 
@@ -444,6 +526,10 @@ Reading core <../../ip_core/fifo/wrfifo.ngc>.
 Reading core <../../ip_core/fifo/rdfifo.ngc>.
 Loading core <wrfifo> for timing and area information for instance <u_wrfifo>.
 Loading core <rdfifo> for timing and area information for instance <u_rdfifo>.
+
+Synthesizing (advanced) Unit <ad7606>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <ad7606> synthesized (advanced).
 
 Synthesizing (advanced) Unit <led_disp>.
 The following registers are absorbed into counter <led_cnt>: 1 register on signal <led_cnt>.
@@ -465,40 +551,63 @@ Unit <sdram_test> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 2
+# Adders/Subtractors                                   : 3
  24-bit adder                                          : 2
-# Counters                                             : 7
+ 6-bit adder                                           : 1
+# Counters                                             : 8
  10-bit up counter                                     : 1
  11-bit up counter                                     : 1
  15-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
  24-bit up counter                                     : 2
  25-bit up counter                                     : 1
  4-bit up counter                                      : 1
-# Registers                                            : 138
- Flip-Flops                                            : 138
-# Comparators                                          : 14
+# Registers                                            : 276
+ Flip-Flops                                            : 276
+# Comparators                                          : 15
  10-bit comparator greater                             : 3
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 1
  15-bit comparator greater                             : 1
+ 16-bit comparator greater                             : 1
  24-bit comparator greater                             : 4
  24-bit comparator lessequal                           : 1
  24-bit comparator not equal                           : 1
  25-bit comparator greater                             : 1
-# Multiplexers                                         : 51
- 1-bit 2-to-1 multiplexer                              : 3
+# Multiplexers                                         : 64
+ 1-bit 2-to-1 multiplexer                              : 7
  13-bit 2-to-1 multiplexer                             : 16
  16-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 17
  24-bit 2-to-1 multiplexer                             : 5
  5-bit 2-to-1 multiplexer                              : 9
-# FSMs                                                 : 2
+ 6-bit 2-to-1 multiplexer                              : 9
+# FSMs                                                 : 3
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <u_ad7606/FSM_2> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | 1000
+ 1001  | 1001
+ 1010  | 1010
+ 1011  | 1011
+ 1100  | 1100
+-------------------
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <u_sdram_top/u_sdram_controller/u_sdram_ctrl/FSM_1> on signal <init_state[1:3]> with sequential encoding.
 -------------------
@@ -562,6 +671,8 @@ Optimizing unit <sdram_controller> ...
 
 Optimizing unit <sdram_rw_test> ...
 
+Optimizing unit <ad7606> ...
+
 Optimizing unit <sdram_test> ...
 
 Optimizing unit <led_disp> ...
@@ -575,34 +686,150 @@ Optimizing unit <sdram_data> ...
 Optimizing unit <sdram_ctrl> ...
 
 Optimizing unit <ClockForwarding> ...
-WARNING:Xst:1710 - FF/Latch <wr_cnt_23> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_22> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_21> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_20> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_19> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_16> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_15> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_14> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_13> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_cnt_12> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_23> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_22> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_21> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_20> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_19> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <ad_ch1_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch1_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch2_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch3_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch4_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch5_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch6_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch7_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_0> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_1> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_2> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_3> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_4> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_5> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_6> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_7> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_8> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_9> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_10> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_11> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_12> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_13> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_14> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:2677 - Node <ad_ch8_15> of sequential type is unconnected in block <u_ad7606>.
 WARNING:Xst:1710 - FF/Latch <rd_cnt_16> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_15> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_14> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_13> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <rd_cnt_12> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_data_15> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_data_14> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_data_13> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wr_data_12> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_19> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_20> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_21> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_22> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rd_cnt_23> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_16> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_19> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_20> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_21> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_22> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wr_cnt_23> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_23> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_22> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_21> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
@@ -612,10 +839,6 @@ WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_18> (without init value) has a consta
 WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_17> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_16> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_15> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_14> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_13> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_12> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_rd_addr_11> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_23> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_22> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_21> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
@@ -625,15 +848,11 @@ WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_18> (without init value) has a consta
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_17> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_16> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_15> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_14> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_13> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_12> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_11> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <cnt_refresh_10> (without init value) has a constant value of 0 in block <u_sdram_ctrl>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block sdram_rw_test, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block sdram_rw_test, actual ratio is 1.
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i> 
 INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_wrfifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
@@ -673,8 +892,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 185
- Flip-Flops                                            : 185
+# Registers                                            : 235
+ Flip-Flops                                            : 235
 
 =========================================================================
 
@@ -697,35 +916,39 @@ Top Level Output File Name         : sdram_rw_test.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 773
-#      GND                         : 11
-#      INV                         : 25
-#      LUT1                        : 38
+# BELS                             : 919
+#      GND                         : 12
+#      INV                         : 26
+#      LUT1                        : 66
 #      LUT2                        : 131
-#      LUT3                        : 69
-#      LUT4                        : 73
-#      LUT5                        : 49
-#      LUT6                        : 103
-#      MUXCY                       : 157
+#      LUT3                        : 75
+#      LUT4                        : 93
+#      LUT5                        : 59
+#      LUT6                        : 119
+#      MUXCY                       : 188
 #      MUXF7                       : 2
-#      VCC                         : 7
-#      XORCY                       : 108
-# FlipFlops/Latches                : 496
-#      FD                          : 8
-#      FDC                         : 268
-#      FDCE                        : 167
+#      VCC                         : 8
+#      XORCY                       : 140
+# FlipFlops/Latches                : 546
+#      FD                          : 9
+#      FDC                         : 272
+#      FDCE                        : 183
+#      FDE                         : 16
 #      FDP                         : 48
 #      FDPE                        : 3
+#      FDR                         : 4
+#      FDRE                        : 6
+#      FDS                         : 3
 #      FDSE                        : 1
 #      ODDR2                       : 1
 # RAMS                             : 2
 #      RAMB16BWER                  : 2
 # Clock Buffers                    : 4
 #      BUFG                        : 4
-# IO Buffers                       : 42
-#      IBUF                        : 2
+# IO Buffers                       : 50
+#      IBUF                        : 3
 #      IOBUF                       : 16
-#      OBUF                        : 24
+#      OBUF                        : 31
 # Others                           : 1
 #      PLL_ADV                     : 1
 
@@ -736,20 +959,20 @@ Selected Device : 6slx25ftg256-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             496  out of  30064     1%  
- Number of Slice LUTs:                  488  out of  15032     3%  
-    Number used as Logic:               488  out of  15032     3%  
+ Number of Slice Registers:             546  out of  30064     1%  
+ Number of Slice LUTs:                  569  out of  15032     3%  
+    Number used as Logic:               569  out of  15032     3%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    709
-   Number with an unused Flip Flop:     213  out of    709    30%  
-   Number with an unused LUT:           221  out of    709    31%  
-   Number of fully used LUT-FF pairs:   275  out of    709    38%  
-   Number of unique control sets:        43
+ Number of LUT Flip Flop pairs used:    790
+   Number with an unused Flip Flop:     244  out of    790    30%  
+   Number with an unused LUT:           221  out of    790    27%  
+   Number of fully used LUT-FF pairs:   325  out of    790    41%  
+   Number of unique control sets:        47
 
 IO Utilization: 
- Number of IOs:                          42
- Number of bonded IOBs:                  42  out of    186    22%  
+ Number of IOs:                          67
+ Number of bonded IOBs:                  50  out of    186    26%  
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                2  out of     52     3%  
@@ -778,8 +1001,8 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-u_pll_clk/pll_base_inst/CLKOUT0    | BUFG                   | 215   |
-u_pll_clk/pll_base_inst/CLKOUT1    | BUFG                   | 284   |
+u_pll_clk/pll_base_inst/CLKOUT0    | BUFG                   | 257   |
+u_pll_clk/pll_base_inst/CLKOUT1    | BUFG                   | 292   |
 u_pll_clk/pll_base_inst/CLKOUT2    | BUFG                   | 2     |
 -----------------------------------+------------------------+-------+
 
@@ -792,7 +1015,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 6.002ns (Maximum Frequency: 166.604MHz)
-   Minimum input arrival time before clock: 5.177ns
+   Minimum input arrival time before clock: 5.246ns
    Maximum output required time after clock: 4.807ns
    Maximum combinational path delay: No path found
 
@@ -803,7 +1026,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
   Clock period: 4.961ns (frequency: 201.572MHz)
-  Total number of paths / destination ports: 9778 / 430
+  Total number of paths / destination ports: 11097 / 519
 -------------------------------------------------------------------------
 Delay:               4.961ns (Levels of Logic = 28)
   Source:            u_led_disp/led_cnt_21 (FF)
@@ -852,7 +1075,7 @@ Delay:               4.961ns (Levels of Logic = 28)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
   Clock period: 6.002ns (frequency: 166.604MHz)
-  Total number of paths / destination ports: 4629 / 541
+  Total number of paths / destination ports: 4796 / 557
 -------------------------------------------------------------------------
 Delay:               6.002ns (Levels of Logic = 6)
   Source:            u_sdram_top/u_sdram_controller/u_sdram_ctrl/cnt_clk_3 (FF)
@@ -880,9 +1103,9 @@ Delay:               6.002ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
-  Total number of paths / destination ports: 74 / 74
+  Total number of paths / destination ports: 95 / 95
 -------------------------------------------------------------------------
-Offset:              5.106ns (Levels of Logic = 4)
+Offset:              5.246ns (Levels of Logic = 4)
   Source:            rst_n (PAD)
   Destination:       u_sdram_test/wr_en (FF)
   Destination Clock: u_pll_clk/pll_base_inst/CLKOUT0 rising
@@ -894,15 +1117,15 @@ Offset:              5.106ns (Levels of Logic = 4)
      IBUF:I->O             3   1.222   0.755  rst_n_IBUF (rst_n_IBUF)
      LUT2:I0->O           10   0.203   0.856  sys_rst_n1 (sys_rst_n)
      begin scope: 'u_sdram_test:rst_n'
-     INV:I->O             42   0.206   1.433  rst_n_inv1_INV_0 (rst_n_inv)
+     INV:I->O             54   0.206   1.573  rst_n_inv1_INV_0 (rst_n_inv)
      FDC:CLR                   0.430          wr_en
     ----------------------------------------
-    Total                      5.106ns (2.061ns logic, 3.045ns route)
-                                       (40.4% logic, 59.6% route)
+    Total                      5.246ns (2.061ns logic, 3.185ns route)
+                                       (39.3% logic, 60.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
-  Total number of paths / destination ports: 126 / 126
+  Total number of paths / destination ports: 134 / 134
 -------------------------------------------------------------------------
 Offset:              5.177ns (Levels of Logic = 5)
   Source:            rst_n (PAD)
@@ -949,23 +1172,23 @@ Offset:              4.807ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
-  Total number of paths / destination ports: 1 / 1
+  Total number of paths / destination ports: 5 / 5
 -------------------------------------------------------------------------
-Offset:              3.634ns (Levels of Logic = 2)
-  Source:            u_led_disp/led (FF)
-  Destination:       led (PAD)
+Offset:              3.975ns (Levels of Logic = 2)
+  Source:            u_ad7606/ad_reset (FF)
+  Destination:       ad_reset_out (PAD)
   Source Clock:      u_pll_clk/pll_base_inst/CLKOUT0 rising
 
-  Data Path: u_led_disp/led to led
+  Data Path: u_ad7606/ad_reset to ad_reset_out
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              2   0.447   0.616  led (led)
-     end scope: 'u_led_disp:led'
-     OBUF:I->O                 2.571          led_OBUF (led)
+     FD:C->Q              14   0.447   0.957  ad_reset (ad_reset)
+     end scope: 'u_ad7606:ad_reset'
+     OBUF:I->O                 2.571          ad_reset_out_OBUF (ad_reset_out)
     ----------------------------------------
-    Total                      3.634ns (3.018ns logic, 0.616ns route)
-                                       (83.0% logic, 17.0% route)
+    Total                      3.975ns (3.018ns logic, 0.957ns route)
+                                       (75.9% logic, 24.1% route)
 
 =========================================================================
 
@@ -978,7 +1201,7 @@ Clock to Setup on destination clock u_pll_clk/pll_base_inst/CLKOUT0
 Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------+---------+---------+---------+---------+
 u_pll_clk/pll_base_inst/CLKOUT0|    4.961|         |         |         |
-u_pll_clk/pll_base_inst/CLKOUT1|    4.050|         |         |         |
+u_pll_clk/pll_base_inst/CLKOUT1|    4.152|         |         |         |
 -------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock u_pll_clk/pll_base_inst/CLKOUT1
@@ -993,14 +1216,14 @@ u_pll_clk/pll_base_inst/CLKOUT1|    6.002|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.50 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.95 secs
  
 --> 
 
 Total memory usage is 4503128 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   87 (   0 filtered)
-Number of infos    :   37 (   0 filtered)
+Number of warnings :  206 (   0 filtered)
+Number of infos    :   45 (   0 filtered)
 

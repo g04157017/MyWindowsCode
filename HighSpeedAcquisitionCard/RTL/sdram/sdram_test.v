@@ -19,7 +19,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module sdram_test(
-	 input             clk_50m,          //时钟
+	input             clk_50m,          //时钟
     input             rst_n,            //复位,低有效
     
     output reg        wr_en,            //SDRAM 写使能
@@ -39,7 +39,7 @@ reg [23:0] rd_cnt;                      //读操作计数器
 reg        rd_valid;                    //读数据有效标志
 
 //parameter define 
-parameter DATA_LENG = 24'd2048;
+parameter DATA_LENG = 24'd32768;
 //*****************************************************
 //**                    main code
 //***************************************************** 

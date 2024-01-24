@@ -15,6 +15,11 @@
 module sdram_rw_test(
     input         clk,                      //FPGA外部时钟，50M
     input         rst_n,                   //按键复位，低电平有效
+	//ADC
+	input  [15:0] ad_data_in,
+	input 		  ad_busy_in,
+	input 		  first_data_in,
+	
     //SDRAM 芯片接口
     output        sdram_clk,                //SDRAM 芯片时钟
     output        sdram_cke,                //SDRAM 时钟有效
@@ -27,7 +32,13 @@ module sdram_rw_test(
     inout  [15:0] sdram_data,               //SDRAM 数据
     output [ 1:0] sdram_dqm,                //SDRAM 数据掩码
     //LED
-    output        led                       //状态指示灯
+    output        led,                       //状态指示灯
+	//ADC
+	output [2:0] ad_os_out,
+	output		 ad_cs_out,
+	output		ad_rd_out,
+	output		ad_reset_out,
+	output		ad_convstab_out
     );
     
 ////wire define
@@ -44,7 +55,15 @@ module sdram_rw_test(
 	 wire        locked;                         //PLL输出有效标志
 	 wire        sys_rst_n;                      //系统复位信号
 	 wire        error_flag;                     //读写测试错误标志
-
+	//ADC
+	 wire [15:0] ad_ch1_out;
+	 wire [15:0] ad_ch2_out;
+	 wire [15:0] ad_ch3_out;
+	 wire [15:0] ad_ch4_out;
+	 wire [15:0] ad_ch5_out;
+	 wire [15:0] ad_ch6_out;
+	 wire [15:0] ad_ch7_out;
+	 wire [15:0] ad_ch8_out;
 //*****************************************************
 //**                    main code
 //***************************************************** 
@@ -89,7 +108,7 @@ led_disp u_led_disp(
     .led                (led)             
     );
 //parameter define 
-parameter DATA_LENG_MAX = 24'd2048;
+parameter DATA_LENG_MAX = 24'd32768;
 //SDRAM 控制器顶层模块,封装成FIFO接口
 //SDRAM 控制器地址组成: {bank_addr[1:0],row_addr[12:0],col_addr[8:0]}
 sdram_top u_sdram_top(
@@ -131,5 +150,24 @@ sdram_top u_sdram_top(
 	.sdram_data			(sdram_data),       //SDRAM 数据
 	.sdram_dqm			(sdram_dqm)         //SDRAM 数据掩码
     );
-
+ad7606 u_ad7606(
+	.clk				(clk_50m),
+	.rst_n				(sys_rst_n),
+	.ad_data			(ad_data_in),
+	.ad_busy			(ad_busy_in),
+	.first_data			(first_data_in),
+	.ad_os				(ad_os_out),
+	.ad_cs				(ad_cs_out),
+	.ad_rd				(ad_rd_out),
+	.ad_reset			(ad_reset_out),
+	.ad_convstab		(ad_convstab_out),
+	.ad_ch1				(ad_ch1_out),
+	.ad_ch2				(ad_ch2_out),
+	.ad_ch3				(ad_ch3_out),
+	.ad_ch4				(ad_ch4_out),
+	.ad_ch5				(ad_ch5_out),
+	.ad_ch6				(ad_ch6_out),
+	.ad_ch7				(ad_ch7_out),
+	.ad_ch8				(ad_ch8_out)
+);
 endmodule 

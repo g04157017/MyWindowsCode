@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=F:\01FPGA_PRO\V13ERSION\PRO\FPGA13pro\sdram_rw_test.ncd
-OUTFILE=F:\01FPGA_PRO\V13ERSION\PRO\FPGA13pro\sdram_rw_test.bit
+INFILE=F:\02git\HighSpeedAcquisitionCard\PRO\FPGA13pro\sdram_rw_test.ncd
+OUTFILE=F:\02git\HighSpeedAcquisitionCard\PRO\FPGA13pro\sdram_rw_test.bit
 FAMILY=Spartan6
 PART=xc6slx25-3ftg256
-WORKINGDIR=F:\01FPGA_PRO\V13ERSION\PRO\FPGA13pro
+WORKINGDIR=F:\02git\HighSpeedAcquisitionCard\PRO\FPGA13pro
 LICENSE=WebPack
 USER_INFO=135256_15690819_173552794_661

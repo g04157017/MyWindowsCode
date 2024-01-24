@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-01-22T15:23:01</DateModified>
+  <DateModified>2024-01-23T10:43:45</DateModified>
   <ModuleName>sdram_rw_test</ModuleName>
-  <SummaryTimeStamp>2024-01-10T14:16:53</SummaryTimeStamp>
+  <SummaryTimeStamp>2024-01-22T16:04:24</SummaryTimeStamp>
   <SavedFilePath>F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro/iseconfig/sdram_rw_test.xreport</SavedFilePath>
   <ImplementationReportsDirectory>F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro\</ImplementationReportsDirectory>
   <DateInitialized>2024-01-10T11:41:57</DateInitialized>

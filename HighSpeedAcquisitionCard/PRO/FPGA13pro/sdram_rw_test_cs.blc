@@ -1,12 +1,14 @@
 Release 14.7 ngcbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: ngcbuild.exe -dd F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/_ngo -sd
-../../ip_core/fifo -sd ../../ip_core/clk -p xc6slx25-ftg256-3 -i
-F:\01FPGA_PRO\V13ERSION\PRO\FPGA13pro\sdram_rw_test.ngc
-F:\01FPGA_PRO\V13ERSION\PRO\FPGA13pro\sdram_rw_test_cs.ngc
+Command Line: ngcbuild.exe -dd
+F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro/_ngo -sd ../../ip_core/fifo -sd
+../../ip_core/clk -p xc6slx25-ftg256-3 -i
+F:\02git\HighSpeedAcquisitionCard\PRO\FPGA13pro\sdram_rw_test.ngc
+F:\02git\HighSpeedAcquisitionCard\PRO\FPGA13pro\sdram_rw_test_cs.ngc
 
-Reading NGO file "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test.ngc" ...
+Reading NGO file
+"F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro/sdram_rw_test.ngc" ...
 Loading design module "../../ip_core/fifo/wrfifo.ngc"...
 Loading design module "../../ip_core/fifo/rdfifo.ngc"...
 
@@ -21,12 +23,12 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4397608 kilobytes
+Total memory usage is 4397564 kilobytes
 
-Writing NGC file "F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test_cs.ngc"
-...
+Writing NGC file
+"F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro/sdram_rw_test_cs.ngc" ...
 Total REAL time to NGCBUILD completion:  3 sec
 Total CPU time to NGCBUILD completion:   3 sec
 
 Writing NGCBUILD log file
-"F:/01FPGA_PRO/V13ERSION/PRO/FPGA13pro/sdram_rw_test_cs.blc"...
+"F:/02git/HighSpeedAcquisitionCard/PRO/FPGA13pro/sdram_rw_test_cs.blc"...

@@ -8,12 +8,6 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/led_ctl/led_disp.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/ClockForwarding.v&quot; into library work</arg>
-</msg>
-
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v&quot; into library work</arg>
 </msg>
 
@@ -144,9 +138,6 @@
 </msg>
 
 <msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_cmd.v</arg>&quot; Line <arg fmt="%d" index="2">158</arg>. <arg fmt="%s" index="3">Syntax error near &quot;;&quot;.</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_controller.v&quot; into library work</arg>
 </msg>
 
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_ctrl.v&quot; into library work</arg>
@@ -401,19 +392,7 @@
 <msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_driver/sdram_data.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_fifo_ctrl.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_para.v&quot; into library work</arg>
-</msg>
-
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_test.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram/sdram_top.v&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/02git/HighSpeedAcquisitionCard/RTL/sdram_rw_test.v&quot; into library work</arg>
 </msg>
 
 </messages>

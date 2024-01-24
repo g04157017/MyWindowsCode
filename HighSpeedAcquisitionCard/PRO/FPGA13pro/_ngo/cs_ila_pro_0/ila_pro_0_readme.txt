@@ -1,5 +1,5 @@
 The following files were generated for 'ila_pro_0' in directory
-F:\01FPGA_PRO\V13ERSION\PRO\FPGA13pro\_ngo\cs_ila_pro_0\
+F:\02git\HighSpeedAcquisitionCard\PRO\FPGA13pro\_ngo\cs_ila_pro_0\
 
 XCO file generator:
    Generate an XCO file for compatibility with legacy flows.

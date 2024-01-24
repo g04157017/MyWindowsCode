@@ -8,7 +8,7 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">N18</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">60</arg> more times for the following (max. 5 shown):
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">77</arg> more times for the following (max. 5 shown):
 <arg fmt="%s" index="3">N19,
 N20,
 N21,
@@ -32,19 +32,13 @@ To see the details of these <arg fmt="%s" index="4">info</arg> messages, please 
 <msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
 </msg>
 
+<msg type="info" file="Place" num="834" delta="old" >Only a subset of IOs are locked. Out of <arg fmt="%d" index="1">50</arg> IOs, <arg fmt="%d" index="2">42</arg> are locked and <arg fmt="%d" index="3">8</arg> are not locked. <arg fmt="%s" index="4">If you would like to print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1.</arg> 
+</msg>
+
 <msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
 </msg>
 
 <msg type="warning" file="PhysDesignRules" num="372" delta="old" >Gated clock. Clock net <arg fmt="%s" index="1">icon_control0&lt;13&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
-</msg>
-
-<msg type="warning" file="PhysDesignRules" num="1176" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_S6.U_CS_BRAM_CASCADE_S6/I_DEPTH_LTEQ_16K.U_SBRAM_0/I_B18KGT0.G_RAMB18[2].u_ramb18/U_RAMB18</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16BWER_RAMB16BWER</arg>&gt;.  The block is configured to use input parity pin DIBP0. There is dangling output for parity pin DOPB0.
-</msg>
-
-<msg type="warning" file="PhysDesignRules" num="1176" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_S6.U_CS_BRAM_CASCADE_S6/I_DEPTH_LTEQ_16K.U_SBRAM_0/I_B18KGT0.G_RAMB18[0].u_ramb18/U_RAMB18</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16BWER_RAMB16BWER</arg>&gt;.  The block is configured to use input parity pin DIBP0. There is dangling output for parity pin DOPB0.
-</msg>
-
-<msg type="warning" file="PhysDesignRules" num="1176" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_S6.U_CS_BRAM_CASCADE_S6/I_DEPTH_LTEQ_16K.U_SBRAM_0/I_B18KGT0.G_RAMB18[1].u_ramb18/U_RAMB18</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16BWER_RAMB16BWER</arg>&gt;.  The block is configured to use input parity pin DIBP0. There is dangling output for parity pin DOPB0.
 </msg>
 
 </messages>
