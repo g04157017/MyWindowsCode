@@ -8,14 +8,15 @@ module ad7606(
 	                                   
 	input  [15:0] 	  ad_data    ,  // ad7606 采样数据
 	input        	  ad_busy    ,  // ad7606 忙标志位 
-    input        	  first_data ,  // ad7606 第一个数据标志位 	    
+    input        	  first_data ,  // ad7606 第一个数据标志位 	 
 	output [ 2:0] 	  ad_os      ,  // ad7606 过采样倍率选择
 	output reg   	  ad_cs      ,  // ad7606 AD cs
 	output reg   	  ad_rd      ,  // ad7606 AD data read
 	output reg   	  ad_reset   ,  // ad7606 AD reset
 	output reg   	  ad_convstab,  // ad7606 AD convert start
+	output reg		  ad_range   ,  //ad7606 设置它的采集电压范围，1：±10V，0：±5V所有通道输入
                                        
-	output reg [15:0] ad_ch1     ,  // AD第1通道的数据
+    output reg [15:0] ad_ch1     ,  // AD第1通道的数据
 	output reg [15:0] ad_ch2     ,  // AD第2通道的数据
 	output reg [15:0] ad_ch3     ,  // AD第3通道的数据
 	output reg [15:0] ad_ch4     ,  // AD第4通道的数据
@@ -24,8 +25,6 @@ module ad7606(
 	output reg [15:0] ad_ch7     ,  // AD第7通道的数据
 	output reg [15:0] ad_ch8        // AD第8通道的数据	
     );
-
-
 
 reg [15:0] cnt;
 reg [ 5:0] i;
@@ -71,8 +70,9 @@ begin
 			 ad_ch7<=0  ;
 			 ad_ch8<=0  ;
 			 ad_cs<=1'b1;
-			 ad_rd<=1'b1; 
+			 ad_rd<=1'b1;
 			 ad_convstab<=1'b1;
+			 ad_range<=1'b1;
 			 i<=0       ;
 	 end		 
 	 else begin

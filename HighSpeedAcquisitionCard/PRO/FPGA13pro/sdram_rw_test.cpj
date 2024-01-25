@@ -1,5 +1,5 @@
 #ChipScope Pro Analyzer Project File, Version 3.0
-#Mon Jan 22 16:47:26 CST 2024
+#Wed Jan 24 17:15:04 CST 2024
 device.0.configFileDir=F\:\\02git\\HighSpeedAcquisitionCard\\PRO\\FPGA13pro
 device.0.configFilename=sdram_rw_test.bit
 device.0.inserterCDCFileDir=F\:\\02git\\HighSpeedAcquisitionCard\\CHipScope
@@ -19,8 +19,8 @@ mdiUnit0=0
 mdiUnit1=0
 navigatorHeight=0.2870544090056285
 navigatorHeightLast=0.1350844277673546
-navigatorWidth=0.1115702479338843
-navigatorWidthLast=0.1012396694214876
+navigatorWidth=0.11151641479937467
+navigatorWidthLast=0.10109431995831163
 signalDisplayPath=0
 unit.-1.-1.username=
 unit.0.-1.username=
@@ -28,11 +28,11 @@ unit.0.0.0.HEIGHT0=1.0
 unit.0.0.0.TriggerRow0=1
 unit.0.0.0.TriggerRow1=1
 unit.0.0.0.TriggerRow2=1
-unit.0.0.0.WIDTH0=0.98995274
+unit.0.0.0.WIDTH0=0.98986286
 unit.0.0.0.X0=0.0
 unit.0.0.0.Y0=0.0
 unit.0.0.1.HEIGHT1=1.0
-unit.0.0.1.WIDTH1=0.98995274
+unit.0.0.1.WIDTH1=0.98986286
 unit.0.0.1.X1=0.0
 unit.0.0.1.Y1=0.0
 unit.0.0.2.HEIGHT2=0.31909546
@@ -685,7 +685,7 @@ unit.0.0.triggerCapture=1
 unit.0.0.triggerNSamplesTS=0
 unit.0.0.triggerPosition=0
 unit.0.0.triggerWindowCount=1
-unit.0.0.triggerWindowDepth=16384
+unit.0.0.triggerWindowDepth=2048
 unit.0.0.triggerWindowTS=0
 unit.0.0.username=MyILA0
 unit.0.0.waveform.count=2

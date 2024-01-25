@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.26 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.26 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Reading design: sdram_rw_test.prj
 
@@ -127,6 +127,12 @@ Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_driver
 Parsing module <sdram_controller>.
 Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\ClockForwarding.v" into library work
 Parsing module <ClockForwarding>.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\usart\usart_tx.v" into library work
+Parsing module <usart_tx>.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\usart\usart_rx.v" into library work
+Parsing module <usart_rx>.
+Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\usart\uart_loop.v" into library work
+Parsing module <uart_loop>.
 Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_top.v" into library work
 Parsing module <sdram_top>.
 Analyzing Verilog file "F:\02git\HighSpeedAcquisitionCard\RTL\sdram\sdram_test.v" into library work
@@ -188,15 +194,21 @@ Elaborating module <sdram_cmd>.
 Elaborating module <sdram_data>.
 
 Elaborating module <ad7606>.
-WARNING:HDLCompiler:413 - "F:\02git\HighSpeedAcquisitionCard\RTL\AD7606\AD7606_parallel.v" Line 54: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 164: Assignment to ad_ch1_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 165: Assignment to ad_ch2_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 166: Assignment to ad_ch3_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 167: Assignment to ad_ch4_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 168: Assignment to ad_ch5_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 169: Assignment to ad_ch6_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 170: Assignment to ad_ch7_out ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 171: Assignment to ad_ch8_out ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "F:\02git\HighSpeedAcquisitionCard\RTL\AD7606\AD7606_parallel.v" Line 53: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 177: Assignment to ad_ch1_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 178: Assignment to ad_ch2_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 179: Assignment to ad_ch3_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 180: Assignment to ad_ch4_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 181: Assignment to ad_ch5_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 182: Assignment to ad_ch6_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 183: Assignment to ad_ch7_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" Line 184: Assignment to ad_ch8_out ignored, since the identifier is never used
+
+Elaborating module <usart_rx>.
+
+Elaborating module <usart_tx>.
+
+Elaborating module <uart_loop>.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -205,14 +217,14 @@ WARNING:HDLCompiler:1127 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.
 Synthesizing Unit <sdram_rw_test>.
     Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v".
         DATA_LENG_MAX = 24'b000000001000000000000000
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch1> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch2> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch3> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch4> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch5> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch6> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch7> of the instance <u_ad7606> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 153: Output port <ad_ch8> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch1> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch2> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch3> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch4> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch5> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch6> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch7> of the instance <u_ad7606> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\02git\HighSpeedAcquisitionCard\RTL\sdram_rw_test.v" line 165: Output port <ad_ch8> of the instance <u_ad7606> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <sdram_rw_test> synthesized.
@@ -453,9 +465,9 @@ WARNING:Xst:647 - Input <first_data> is never used. This port will be preserved 
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 16-bit adder for signal <cnt[15]_GND_34_o_add_3_OUT> created at line 54.
+    Found 16-bit adder for signal <cnt[15]_GND_34_o_add_3_OUT> created at line 53.
     Found 6-bit adder for signal <i[5]_GND_34_o_add_59_OUT> created at line 210.
-    Found 16-bit comparator greater for signal <cnt[15]_PWR_20_o_LessThan_3_o> created at line 53
+    Found 16-bit comparator greater for signal <cnt[15]_PWR_20_o_LessThan_3_o> created at line 52
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred 154 D-type flip-flop(s).
@@ -464,54 +476,110 @@ WARNING:Xst:647 - Input <first_data> is never used. This port will be preserved 
 	inferred   1 Finite State Machine(s).
 Unit <ad7606> synthesized.
 
+Synthesizing Unit <usart_rx>.
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\usart\usart_rx.v".
+        CLK_RREQ = 50000000
+        UART_BPS = 115200
+    Found 16-bit register for signal <clk_cnt>.
+    Found 4-bit register for signal <rx_cnt>.
+    Found 8-bit register for signal <rx_data>.
+    Found 8-bit register for signal <uart_data>.
+    Found 1-bit register for signal <usart_rxd_d1>.
+    Found 1-bit register for signal <rx_flag>.
+    Found 1-bit register for signal <uart_done>.
+    Found 1-bit register for signal <usart_rxd_d0>.
+    Found 16-bit adder for signal <clk_cnt[15]_GND_35_o_add_3_OUT> created at line 76.
+    Found 4-bit adder for signal <rx_cnt[3]_GND_35_o_add_8_OUT> created at line 89.
+    Found 16-bit comparator greater for signal <clk_cnt[15]_GND_35_o_LessThan_3_o> created at line 75
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  40 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   5 Multiplexer(s).
+Unit <usart_rx> synthesized.
+
+Synthesizing Unit <usart_tx>.
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\usart\usart_tx.v".
+        CLK_RREQ = 50000000
+        UART_BPS = 115200
+    Found 1-bit register for signal <usart_txd>.
+    Found 8-bit register for signal <tx_data>.
+    Found 16-bit register for signal <clk_cnt>.
+    Found 4-bit register for signal <tx_cnt>.
+    Found 1-bit register for signal <usart_en_d1>.
+    Found 1-bit register for signal <tx_flag>.
+    Found 1-bit register for signal <usart_en_d0>.
+    Found 16-bit adder for signal <clk_cnt[15]_GND_36_o_add_6_OUT> created at line 85.
+    Found 4-bit adder for signal <tx_cnt[3]_GND_36_o_add_11_OUT> created at line 98.
+    Found 16-bit comparator greater for signal <clk_cnt[15]_GND_36_o_LessThan_6_o> created at line 84
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  14 Multiplexer(s).
+Unit <usart_tx> synthesized.
+
+Synthesizing Unit <uart_loop>.
+    Related source file is "F:\02git\HighSpeedAcquisitionCard\RTL\usart\uart_loop.v".
+    Found 8-bit register for signal <send_data>.
+    Found 1-bit register for signal <recv_done_d1>.
+    Found 1-bit register for signal <sent_en>.
+    Found 1-bit register for signal <tx_ready>.
+    Found 1-bit register for signal <recv_done_d0>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <uart_loop> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 11
+# Adders/Subtractors                                   : 15
  10-bit adder                                          : 1
  11-bit adder                                          : 1
  15-bit adder                                          : 1
- 16-bit adder                                          : 1
+ 16-bit adder                                          : 3
  24-bit adder                                          : 4
  25-bit adder                                          : 1
- 4-bit adder                                           : 1
+ 4-bit adder                                           : 3
  6-bit adder                                           : 1
-# Registers                                            : 51
- 1-bit register                                        : 26
+# Registers                                            : 71
+ 1-bit register                                        : 38
  10-bit register                                       : 1
  11-bit register                                       : 1
  13-bit register                                       : 1
  15-bit register                                       : 1
- 16-bit register                                       : 12
+ 16-bit register                                       : 14
  2-bit register                                        : 1
  24-bit register                                       : 4
  25-bit register                                       : 1
- 4-bit register                                        : 1
+ 4-bit register                                        : 3
  5-bit register                                        : 1
  6-bit register                                        : 1
-# Comparators                                          : 15
+ 8-bit register                                        : 4
+# Comparators                                          : 17
  10-bit comparator greater                             : 3
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 1
  15-bit comparator greater                             : 1
- 16-bit comparator greater                             : 1
+ 16-bit comparator greater                             : 3
  24-bit comparator greater                             : 4
  24-bit comparator lessequal                           : 1
  24-bit comparator not equal                           : 1
  25-bit comparator greater                             : 1
-# Multiplexers                                         : 70
- 1-bit 2-to-1 multiplexer                              : 8
+# Multiplexers                                         : 89
+ 1-bit 2-to-1 multiplexer                              : 18
  10-bit 2-to-1 multiplexer                             : 1
  11-bit 2-to-1 multiplexer                             : 1
  13-bit 2-to-1 multiplexer                             : 16
- 16-bit 2-to-1 multiplexer                             : 1
+ 16-bit 2-to-1 multiplexer                             : 5
  2-bit 2-to-1 multiplexer                              : 17
  24-bit 2-to-1 multiplexer                             : 6
  25-bit 2-to-1 multiplexer                             : 1
- 4-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 3
  5-bit 2-to-1 multiplexer                              : 9
  6-bit 2-to-1 multiplexer                              : 9
+ 8-bit 2-to-1 multiplexer                              : 3
 # Tristates                                            : 16
  1-bit tristate buffer                                 : 16
 # FSMs                                                 : 3
@@ -547,41 +615,51 @@ The following registers are absorbed into counter <wr_cnt>: 1 register on signal
 The following registers are absorbed into counter <rd_cnt>: 1 register on signal <rd_cnt>.
 Unit <sdram_test> synthesized (advanced).
 
+Synthesizing (advanced) Unit <usart_rx>.
+The following registers are absorbed into counter <rx_cnt>: 1 register on signal <rx_cnt>.
+Unit <usart_rx> synthesized (advanced).
+
+Synthesizing (advanced) Unit <usart_tx>.
+The following registers are absorbed into counter <tx_cnt>: 1 register on signal <tx_cnt>.
+Unit <usart_tx> synthesized (advanced).
+
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 3
+# Adders/Subtractors                                   : 5
+ 16-bit adder                                          : 2
  24-bit adder                                          : 2
  6-bit adder                                           : 1
-# Counters                                             : 8
+# Counters                                             : 10
  10-bit up counter                                     : 1
  11-bit up counter                                     : 1
  15-bit up counter                                     : 1
  16-bit up counter                                     : 1
  24-bit up counter                                     : 2
  25-bit up counter                                     : 1
- 4-bit up counter                                      : 1
-# Registers                                            : 276
- Flip-Flops                                            : 276
-# Comparators                                          : 15
+ 4-bit up counter                                      : 3
+# Registers                                            : 352
+ Flip-Flops                                            : 352
+# Comparators                                          : 17
  10-bit comparator greater                             : 3
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 1
  15-bit comparator greater                             : 1
- 16-bit comparator greater                             : 1
+ 16-bit comparator greater                             : 3
  24-bit comparator greater                             : 4
  24-bit comparator lessequal                           : 1
  24-bit comparator not equal                           : 1
  25-bit comparator greater                             : 1
-# Multiplexers                                         : 64
- 1-bit 2-to-1 multiplexer                              : 7
+# Multiplexers                                         : 81
+ 1-bit 2-to-1 multiplexer                              : 17
  13-bit 2-to-1 multiplexer                             : 16
- 16-bit 2-to-1 multiplexer                             : 1
+ 16-bit 2-to-1 multiplexer                             : 5
  2-bit 2-to-1 multiplexer                              : 17
  24-bit 2-to-1 multiplexer                             : 5
  5-bit 2-to-1 multiplexer                              : 9
  6-bit 2-to-1 multiplexer                              : 9
+ 8-bit 2-to-1 multiplexer                              : 3
 # FSMs                                                 : 3
 
 =========================================================================
@@ -673,6 +751,8 @@ Optimizing unit <sdram_rw_test> ...
 
 Optimizing unit <ad7606> ...
 
+Optimizing unit <usart_rx> ...
+
 Optimizing unit <sdram_test> ...
 
 Optimizing unit <led_disp> ...
@@ -686,6 +766,10 @@ Optimizing unit <sdram_data> ...
 Optimizing unit <sdram_ctrl> ...
 
 Optimizing unit <ClockForwarding> ...
+
+Optimizing unit <usart_tx> ...
+
+Optimizing unit <uart_loop> ...
 WARNING:Xst:2677 - Node <ad_ch1_0> of sequential type is unconnected in block <u_ad7606>.
 WARNING:Xst:2677 - Node <ad_ch1_1> of sequential type is unconnected in block <u_ad7606>.
 WARNING:Xst:2677 - Node <ad_ch1_2> of sequential type is unconnected in block <u_ad7606>.
@@ -814,6 +898,13 @@ WARNING:Xst:2677 - Node <ad_ch8_12> of sequential type is unconnected in block <
 WARNING:Xst:2677 - Node <ad_ch8_13> of sequential type is unconnected in block <u_ad7606>.
 WARNING:Xst:2677 - Node <ad_ch8_14> of sequential type is unconnected in block <u_ad7606>.
 WARNING:Xst:2677 - Node <ad_ch8_15> of sequential type is unconnected in block <u_ad7606>.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_9> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_10> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_11> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_12> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_13> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_14> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_15> (without init value) has a constant value of 0 in block <u_usart_rx>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <rd_cnt_16> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <rd_cnt_17> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <rd_cnt_18> (without init value) has a constant value of 0 in block <u_sdram_test>. This FF/Latch will be trimmed during the optimization process.
@@ -849,6 +940,13 @@ WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_17> (without init value) has a consta
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_16> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <sdram_wr_addr_15> (without init value) has a constant value of 0 in block <u_sdram_fifo_ctrl>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <cnt_refresh_10> (without init value) has a constant value of 0 in block <u_sdram_ctrl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_9> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_10> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_11> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_12> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_13> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_14> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_cnt_15> (without init value) has a constant value of 0 in block <u_usart_tx>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -892,8 +990,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 235
- Flip-Flops                                            : 235
+# Registers                                            : 305
+ Flip-Flops                                            : 305
 
 =========================================================================
 
@@ -916,25 +1014,25 @@ Top Level Output File Name         : sdram_rw_test.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 919
-#      GND                         : 12
-#      INV                         : 26
-#      LUT1                        : 66
-#      LUT2                        : 131
-#      LUT3                        : 75
-#      LUT4                        : 93
-#      LUT5                        : 59
-#      LUT6                        : 119
-#      MUXCY                       : 188
-#      MUXF7                       : 2
-#      VCC                         : 8
-#      XORCY                       : 140
-# FlipFlops/Latches                : 546
+# BELS                             : 1057
+#      GND                         : 14
+#      INV                         : 31
+#      LUT1                        : 82
+#      LUT2                        : 142
+#      LUT3                        : 86
+#      LUT4                        : 99
+#      LUT5                        : 74
+#      LUT6                        : 154
+#      MUXCY                       : 204
+#      MUXF7                       : 3
+#      VCC                         : 10
+#      XORCY                       : 158
+# FlipFlops/Latches                : 616
 #      FD                          : 9
-#      FDC                         : 272
-#      FDCE                        : 183
+#      FDC                         : 306
+#      FDCE                        : 218
 #      FDE                         : 16
-#      FDP                         : 48
+#      FDP                         : 49
 #      FDPE                        : 3
 #      FDR                         : 4
 #      FDRE                        : 6
@@ -945,10 +1043,10 @@ Primitive and Black Box Usage:
 #      RAMB16BWER                  : 2
 # Clock Buffers                    : 4
 #      BUFG                        : 4
-# IO Buffers                       : 50
-#      IBUF                        : 3
+# IO Buffers                       : 53
+#      IBUF                        : 4
 #      IOBUF                       : 16
-#      OBUF                        : 31
+#      OBUF                        : 33
 # Others                           : 1
 #      PLL_ADV                     : 1
 
@@ -959,20 +1057,20 @@ Selected Device : 6slx25ftg256-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             546  out of  30064     1%  
- Number of Slice LUTs:                  569  out of  15032     3%  
-    Number used as Logic:               569  out of  15032     3%  
+ Number of Slice Registers:             616  out of  30064     2%  
+ Number of Slice LUTs:                  668  out of  15032     4%  
+    Number used as Logic:               668  out of  15032     4%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    790
-   Number with an unused Flip Flop:     244  out of    790    30%  
-   Number with an unused LUT:           221  out of    790    27%  
-   Number of fully used LUT-FF pairs:   325  out of    790    41%  
-   Number of unique control sets:        47
+ Number of LUT Flip Flop pairs used:    904
+   Number with an unused Flip Flop:     288  out of    904    31%  
+   Number with an unused LUT:           236  out of    904    26%  
+   Number of fully used LUT-FF pairs:   380  out of    904    42%  
+   Number of unique control sets:        56
 
 IO Utilization: 
- Number of IOs:                          67
- Number of bonded IOBs:                  50  out of    186    26%  
+ Number of IOs:                          70
+ Number of bonded IOBs:                  53  out of    186    28%  
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                2  out of     52     3%  
@@ -1001,7 +1099,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-u_pll_clk/pll_base_inst/CLKOUT0    | BUFG                   | 257   |
+u_pll_clk/pll_base_inst/CLKOUT0    | BUFG                   | 327   |
 u_pll_clk/pll_base_inst/CLKOUT1    | BUFG                   | 292   |
 u_pll_clk/pll_base_inst/CLKOUT2    | BUFG                   | 2     |
 -----------------------------------+------------------------+-------+
@@ -1015,7 +1113,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 6.002ns (Maximum Frequency: 166.604MHz)
-   Minimum input arrival time before clock: 5.246ns
+   Minimum input arrival time before clock: 5.322ns
    Maximum output required time after clock: 4.807ns
    Maximum combinational path delay: No path found
 
@@ -1026,7 +1124,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
   Clock period: 4.961ns (frequency: 201.572MHz)
-  Total number of paths / destination ports: 11097 / 519
+  Total number of paths / destination ports: 11903 / 623
 -------------------------------------------------------------------------
 Delay:               4.961ns (Levels of Logic = 28)
   Source:            u_led_disp/led_cnt_21 (FF)
@@ -1103,9 +1201,9 @@ Delay:               6.002ns (Levels of Logic = 6)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
-  Total number of paths / destination ports: 95 / 95
+  Total number of paths / destination ports: 166 / 166
 -------------------------------------------------------------------------
-Offset:              5.246ns (Levels of Logic = 4)
+Offset:              5.322ns (Levels of Logic = 4)
   Source:            rst_n (PAD)
   Destination:       u_sdram_test/wr_en (FF)
   Destination Clock: u_pll_clk/pll_base_inst/CLKOUT0 rising
@@ -1115,19 +1213,19 @@ Offset:              5.246ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.222   0.755  rst_n_IBUF (rst_n_IBUF)
-     LUT2:I0->O           10   0.203   0.856  sys_rst_n1 (sys_rst_n)
+     LUT2:I0->O           13   0.203   0.932  sys_rst_n1 (sys_rst_n)
      begin scope: 'u_sdram_test:rst_n'
      INV:I->O             54   0.206   1.573  rst_n_inv1_INV_0 (rst_n_inv)
      FDC:CLR                   0.430          wr_en
     ----------------------------------------
-    Total                      5.246ns (2.061ns logic, 3.185ns route)
-                                       (39.3% logic, 60.7% route)
+    Total                      5.322ns (2.061ns logic, 3.261ns route)
+                                       (38.7% logic, 61.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
   Total number of paths / destination ports: 134 / 134
 -------------------------------------------------------------------------
-Offset:              5.177ns (Levels of Logic = 5)
+Offset:              5.253ns (Levels of Logic = 5)
   Source:            rst_n (PAD)
   Destination:       u_sdram_top/u_sdram_controller/u_sdram_ctrl/init_state_FSM_FFd3 (FF)
   Destination Clock: u_pll_clk/pll_base_inst/CLKOUT1 rising
@@ -1137,15 +1235,15 @@ Offset:              5.177ns (Levels of Logic = 5)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.222   0.755  rst_n_IBUF (rst_n_IBUF)
-     LUT2:I0->O           10   0.203   0.856  sys_rst_n1 (sys_rst_n)
+     LUT2:I0->O           13   0.203   0.932  sys_rst_n1 (sys_rst_n)
      begin scope: 'u_sdram_top:rst_n'
      begin scope: 'u_sdram_top/u_sdram_controller:rst_n'
      begin scope: 'u_sdram_top/u_sdram_controller/u_sdram_ctrl:rst_n'
      INV:I->O             47   0.206   1.504  rst_n_inv1_INV_0 (rst_n_inv)
      FDC:CLR                   0.430          work_state_FSM_FFd3
     ----------------------------------------
-    Total                      5.177ns (2.061ns logic, 3.116ns route)
-                                       (39.8% logic, 60.2% route)
+    Total                      5.253ns (2.061ns logic, 3.192ns route)
+                                       (39.2% logic, 60.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'u_pll_clk/pll_base_inst/CLKOUT1'
@@ -1172,7 +1270,7 @@ Offset:              4.807ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'u_pll_clk/pll_base_inst/CLKOUT0'
-  Total number of paths / destination ports: 5 / 5
+  Total number of paths / destination ports: 6 / 6
 -------------------------------------------------------------------------
 Offset:              3.975ns (Levels of Logic = 2)
   Source:            u_ad7606/ad_reset (FF)
@@ -1216,14 +1314,14 @@ u_pll_clk/pll_base_inst/CLKOUT1|    6.002|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 10.95 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.94 secs
  
 --> 
 
 Total memory usage is 4503128 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  206 (   0 filtered)
+Number of warnings :  220 (   0 filtered)
 Number of infos    :   45 (   0 filtered)
 

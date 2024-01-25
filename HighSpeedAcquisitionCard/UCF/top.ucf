@@ -53,7 +53,7 @@ NET "ad_data_in[8]" LOC = G3;
 NET "ad_data_in[9]" LOC = G1;
 NET "ad_data_in[10]" LOC = H2;
 NET "ad_data_in[11]" LOC = H1;
-NET "ad_data_in[12]" LOC = E6;
+NET "ad_data_in[12]" LOC = L3;
 NET "ad_data_in[13]" LOC = F5;
 NET "ad_data_in[14]" LOC = G6;
 NET "ad_data_in[15]" LOC = G5;
@@ -66,6 +66,7 @@ NET "ad_cs_out" LOC = L4;
 NET "ad_reset_out" LOC = L5;
 NET "ad_rd_out" LOC = K2;
 NET "ad_convstab_out" LOC = J3;
+NET "ad_range_out" LOC = N4;
 
 NET "ad_data_in[15]" IOSTANDARD = LVCMOS33;
 NET "ad_data_in[14]" IOSTANDARD = LVCMOS33;
@@ -92,6 +93,7 @@ NET "ad_cs_out" IOSTANDARD = LVCMOS33;
 NET "ad_reset_out" IOSTANDARD = LVCMOS33;
 NET "ad_rd_out" IOSTANDARD = LVCMOS33;
 NET "ad_convstab_out" IOSTANDARD = LVCMOS33;
+NET "ad_range_out" IOSTANDARD = LVCMOS33;
 
 //**************************************************
 //SDRAM

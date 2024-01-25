@@ -20,6 +20,9 @@ module sdram_rw_test(
 	input 		  ad_busy_in,
 	input 		  first_data_in,
 	
+	//UART
+	input		   uart_rxd,
+	
     //SDRAM 芯片接口
     output        sdram_clk,                //SDRAM 芯片时钟
     output        sdram_cke,                //SDRAM 时钟有效
@@ -38,7 +41,10 @@ module sdram_rw_test(
 	output		 ad_cs_out,
 	output		ad_rd_out,
 	output		ad_reset_out,
-	output		ad_convstab_out
+	output		ad_convstab_out,
+	output		ad_range_out,
+	//UART
+	output		uart_txd
     );
     
 ////wire define
@@ -64,13 +70,19 @@ module sdram_rw_test(
 	 wire [15:0] ad_ch6_out;
 	 wire [15:0] ad_ch7_out;
 	 wire [15:0] ad_ch8_out;
+	 
+//UART
+	wire usart_en;
+	wire [7:0] usart_din;
+	wire [7:0] uart_data;
+	wire	   uart_done;
+	wire	   usart_tx_busy;
 //*****************************************************
 //**                    main code
 //***************************************************** 
 
 //待PLL输出稳定之后，停止系统复位
 assign sys_rst_n = rst_n & locked;
-
 //assign testclk = clk; //这个是一个测试方法。
 
 //例化PLL, 产生各模块所需要的时钟
@@ -161,6 +173,7 @@ ad7606 u_ad7606(
 	.ad_rd				(ad_rd_out),
 	.ad_reset			(ad_reset_out),
 	.ad_convstab		(ad_convstab_out),
+	.ad_range			(ad_range_out),
 	.ad_ch1				(ad_ch1_out),
 	.ad_ch2				(ad_ch2_out),
 	.ad_ch3				(ad_ch3_out),
@@ -169,5 +182,33 @@ ad7606 u_ad7606(
 	.ad_ch6				(ad_ch6_out),
 	.ad_ch7				(ad_ch7_out),
 	.ad_ch8				(ad_ch8_out)
+);
+//UART
+usart_rx u_usart_rx(
+	.sys_clk		(clk_50m),
+	.sys_rst_n		(sys_rst_n),
+	.usart_rxd		(uart_rxd),
+	.uart_data		(uart_data),
+	.uart_done		(uart_done)
+
+);
+
+usart_tx u_usart_tx(
+	.sys_clk		(clk_50m),
+	.sys_rst_n		(sys_rst_n),
+	.usart_en		(usart_en),
+	.usart_din		(usart_din),
+	.usart_txd		(uart_txd),
+	.usart_tx_busy	(usart_tx_busy)
+);
+
+uart_loop u_uart_loop(
+	.sys_clk		(clk_50m),
+	.sys_rst_n		(sys_rst_n), 
+	.recv_done		(uart_done),
+	.recv_data		(uart_data),
+	.tx_busy		(usart_tx_busy),
+	.sent_en		(usart_en),
+	.send_data		(usart_din)
 );
 endmodule 
